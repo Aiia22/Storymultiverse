@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased]
+## [Unreleased]- 2023-07-10
 
-### Added
+### Added 
 
 - Initial project setup
   - Created file structure
