@@ -24,6 +24,12 @@
 
 ### Added
 
+- Main.css & Sass files
+
+## [Unreleased]- 2023-07-10
+
+### Added
+
 - Initial project setup
   - Created file structure
   - Added basic components and services
