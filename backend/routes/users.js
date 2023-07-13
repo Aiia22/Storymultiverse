@@ -1,48 +1,13 @@
-const fs = require("fs");
-const { v4: uuidv4 } = require("uuid");
+const express = require("express");
+const router = express.Router();
+const { middleware } = require("../middlewares/authMiddleware");
+const userController = require("../controllers/userController");
 
-const userDataPath = "userData.json";
+// Define routes for users
+router.get("/", middleware, userController.getAllUsers);
+router.get("/:id", middleware, userController.getUserById);
+router.post("/", middleware, userController.createUser);
+router.put("/:id", middleware, userController.updateUser);
+router.delete("/:id", middleware, userController.deleteUser);
 
-const getUsers = () => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
-  return data.users;
-};
-
-const addUser = (newUser) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
-
-  data.users.push(newUser);
-
-  fs.writeFileSync(userDataPath, JSON.stringify(data));
-};
-
-const updateUser = (userId, updatedUser) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
-
-  const userIndex = data.users.findIndex((user) => user.userId === userId);
-  if (userIndex !== -1) {
-    data.users[userIndex] = { ...data.users[userIndex], ...updatedUser };
-    fs.writeFileSync(userDataPath, JSON.stringify(data));
-  }
-};
-
-const deleteUser = (userId) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
-
-  const userIndex = data.users.findIndex((user) => user.userId === userId);
-  if (userIndex !== -1) {
-    data.users.splice(userIndex, 1);
-    fs.writeFileSync(userDataPath, JSON.stringify(data));
-  }
-};
-
-module.exports = {
-  getUsers,
-  addUser,
-  updateUser,
-  deleteUser,
-};
+module.exports = router;

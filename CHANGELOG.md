@@ -1,6 +1,28 @@
 # Changelog
 
-## [Unreleased]
+## [1.2.0] 2023-07-13
+
+### Added
+
+- Added validation middleware using Yup for registration and login routes in auth.js
+- Integrated authentication middleware in users.js routes
+- Added user model to include database operations for user CRUD
+- Added userController.js to handle user-related actions
+- Created authMiddleware.js for JWT authentication
+
+### Changed
+
+- Refactored authentification logic
+
+### fixed
+
+- Fixed import errors and module dependencies in route files
+
+### Changed
+
+- Refactored the server.js file for better organization and modularity.
+
+## [Unreleased] 2023-07-12
 
 ### Added
 
@@ -16,7 +38,7 @@
 
 - Resolved any issues related to the server setup.
 
-## [Version 1.0.0] - 2023-07-12
+## [Version 1.0.0] 2023-07-12
 
 - Initial release of the Storymultiverse server.
 

@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const { middleware } = require("./middlewares/authMiddleware");
 const app = express();
 const port = 3000;
 
@@ -12,8 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 const authRouter = require("./routes/auth");
 const usersRouter = require("./routes/users");
 
-app.use("/auth", authRouter);
-app.use("/users", usersRouter);
+app.use("/users", middleware, usersRouter);
+app.use("/auth", middleware, authRouter);
 
 // Start the server
 app.listen(port, () => {
