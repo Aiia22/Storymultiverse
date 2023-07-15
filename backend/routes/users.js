@@ -1,48 +1,30 @@
-const fs = require("fs");
-const { v4: uuidv4 } = require("uuid");
+// Importing the express module
+const express = require("express");
 
-const userDataPath = "userData.json";
+// Creating a router object
+const router = express.Router();
 
-const getUsers = () => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
-  return data.users;
-};
+// Importing the authMiddleware module
+const { middleware } = require("../middlewares/authMiddleware");
 
-const addUser = (newUser) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
+// Importing the userController module
+const userController = require("../controllers/userController");
 
-  data.users.push(newUser);
+// Define routes for users
+// GET request to retrieve all users
+router.get("/", middleware, userController.getAllUsers);
 
-  fs.writeFileSync(userDataPath, JSON.stringify(data));
-};
+// GET request to retrieve a user by ID
+router.get("/:id", middleware, userController.getUserById);
 
-const updateUser = (userId, updatedUser) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
+// POST request to create a new user
+router.post("/", middleware, userController.createUser);
 
-  const userIndex = data.users.findIndex((user) => user.userId === userId);
-  if (userIndex !== -1) {
-    data.users[userIndex] = { ...data.users[userIndex], ...updatedUser };
-    fs.writeFileSync(userDataPath, JSON.stringify(data));
-  }
-};
+// PUT request to update a user by ID
+router.put("/:id", middleware, userController.updateUser);
 
-const deleteUser = (userId) => {
-  const rawData = fs.readFileSync(userDataPath);
-  const data = JSON.parse(rawData);
+// DELETE request to delete a user by ID
+router.delete("/:id", middleware, userController.deleteUser);
 
-  const userIndex = data.users.findIndex((user) => user.userId === userId);
-  if (userIndex !== -1) {
-    data.users.splice(userIndex, 1);
-    fs.writeFileSync(userDataPath, JSON.stringify(data));
-  }
-};
-
-module.exports = {
-  getUsers,
-  addUser,
-  updateUser,
-  deleteUser,
-};
+// Exporting the router
+module.exports = router;
