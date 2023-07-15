@@ -2,6 +2,18 @@
 
 ## [1.0.0] 2023-07-15
 
+### Added
+
+- Set up for react project
+- All required dependencies : Babel, Webpack
+- WebPack congig file
+
+### Changed
+
+- Rename components Header.js to Navbar.js
+
+## [1.0.0] 2023-07-15
+
 ### Changed
 
 - Changed Style folder location in Frontend
