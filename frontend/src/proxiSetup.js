@@ -11,3 +11,7 @@ module.exports = function (app) {
     })
   );
 };
+
+//------- Copyright & references ---------------
+//https://medium.com/bb-tutorials-and-thoughts/react-how-to-proxy-to-backend-server-5588a9e0347
+//https://blog.logrocket.com/why-you-should-use-proxy-server-create-react-app/

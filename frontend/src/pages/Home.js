@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function MarketPlace() {
+export default function Home() {
   return (
     <div>
-      <h1>MarketPlace page</h1>
+      <h1>Hello Multiverse!</h1>
+      <p>
+        Welcome to the StorymultiverseApp. Explore the wonders of the
+        multiverse!
+      </p>
     </div>
   );
 }
