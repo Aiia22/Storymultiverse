@@ -4,6 +4,13 @@
 
 ### Added
 
+- Set up between react server and node serve
+- Add proxy to connect
+
+## [1.0.0] 2023-07-15
+
+### Added
+
 - Set up for react project
 - All required dependencies : Babel, Webpack
 - WebPack congig file
