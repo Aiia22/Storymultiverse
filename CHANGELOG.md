@@ -4,6 +4,19 @@
 
 ### Added
 
+- Set up react router
+- Connect pages to router
+- Install required dependencies to use react router
+- Add copyright & references
+
+### Changed
+
+- modify webpack.config.js to make sure client-side routing works properly
+
+## [1.0.0] 2023-07-15
+
+### Added
+
 - Set up between react server and node serve
 - Add proxy to connect
 
