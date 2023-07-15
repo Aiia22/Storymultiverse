@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0] 2023-07-15
+
+### Changed
+
+- Changed Style folder location in Frontend
+
 ## [1.2.0] 2023-07-13
 
 ### Added
