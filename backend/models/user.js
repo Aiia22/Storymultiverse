@@ -4,8 +4,10 @@ const fs = require("fs");
 // Importing the uuid module to generate unique identifiers
 const { v4: uuidv4 } = require("uuid");
 
+// --------must replace logic by mongoDB connexion as it use a json file for now ------------------
+
 // Setting the file path for the user data
-const userDataPath = "userData.json";
+const userDataPath = "userData.json"; // Does not exist
 
 // Defining a User class
 class User {

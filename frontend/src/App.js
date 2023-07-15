@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css"; // Import your Sass file
+import "./App.css";
 
 function App() {
-  return <div className="app">Hello, Storymultiverse!</div>; // Use your styles here
+  return <div className="app">Hello, Storymultiverse!</div>; // will use  styles here
 }
 
 export default App;

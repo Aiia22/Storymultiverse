@@ -15,7 +15,7 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"], // Add @babel/preset-react for JSX support
+            presets: ["@babel/preset-env", "@babel/preset-react"],
           },
         },
       },
