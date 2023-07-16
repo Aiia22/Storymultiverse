@@ -5,7 +5,7 @@ import Navbar from "../components/NavBar";
 export default function SurpriseMe() {
   return (
     <><Navbar /><div>
-      <h1>SurpriseMe page</h1>
+      <h1>Surprise Me page</h1>
     </div></>
   );
 }

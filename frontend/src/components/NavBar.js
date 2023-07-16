@@ -16,34 +16,32 @@ const Navbar = () => {
                 <ul>
                     <li>
                         <Link to="/"> 
-                            <a href=" /"><img src={homeIcon} alt="homeIcon" /></a>
+                            <a href=" /"><img src={homeIcon} alt="homeIcon"  id="navBarIcon"/></a>
                         </Link>
                     </li>
                      <li>
                         <Link to="/my-search"> 
-                             <a href=" /my-search"><img src={searchIcon} alt="searchIcon" /></a>
+                             <a href=" /my-search"><img src={searchIcon} alt="searchIcon" id="navBarIcon" /></a>
                         </Link>
                     </li>
                      <li>
                         <Link to="/my-list">
-                            <a href=" /my-list"><img src={myListIcon} alt="myListIcon" /></a>
+                            <a href=" /my-list"><img src={myListIcon} alt="myListIcon" id="navBarIcon"/></a>
                         </Link>
                      </li>
                     <li>
                         <Link to="/community">
-                         <a href=" /community"><img src={communityIcon} alt="communityIcon" /></a>
+                         <a href=" /community"><img src={communityIcon} alt="communityIcon"id="navBarIcon" /></a>
                         </Link>
                      </li>
                      <li>
                         <Link to="/Support">
-                         <a href=" /Support"><img src={supportIcon} alt="supportIcon" /></a>
+                         <a href=" /Support"><img src={supportIcon} alt="supportIcon"id="navBarIcon" /></a>
                         </Link>
                     </li>
-                    <li></li>
-                    <li></li>
                     <li>
                         <Link to="/my-account">
-                        <a href=" /my-account"><img src={loginIcon} alt="loginIcon" /></a>
+                        <a href=" /my-account"><img src={loginIcon} alt="loginIcon"id="navBarIcon2" /></a>
                         </Link>
                      </li>
                 </ul>

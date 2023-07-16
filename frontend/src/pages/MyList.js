@@ -5,7 +5,7 @@ import Navbar from "../components/NavBar";
 export default function MyList() {
   return (
     <><Navbar /><div> 
-      <h1>MyList page</h1>
+      <h1>My List page</h1>
     </div></>
 
   );
