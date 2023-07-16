@@ -3,10 +3,27 @@
     background-color: #6b7493;
     width: 100px;
     display: block;
-    padding: 16px
+    padding: 20px;
+   /* position:fixed*/
     
 }
-
+img:hover
+{
+    background-color: #bcc1d6; 
+}
+#navBarIcon
+{
+    height: 80px;
+    display:inline;
+    margin-top: 50px;
+}
+    
+#navBarIcon2
+{
+    height: 90px;
+    display:inline;
+    margin-top: 350px;
+}
 
 ul
 {

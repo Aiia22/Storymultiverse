@@ -5,7 +5,7 @@ import Navbar from "../components/NavBar";
 export default function Support() {
   return (
     <><Navbar /><div> 
-      <h1>Support</h1>
+      <h1>Customer Support</h1>
     </div></>
 
   );
