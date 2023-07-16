@@ -1,10 +1,12 @@
 import React from "react";
+// Connecting the NavBar to the pages
+import Navbar from "../components/NavBar";
 
 export default function MySearch() {
   return (
-    <div>
-      <h1>MySearch page</h1>
-    </div>
+    <><Navbar /><div>
+      <h1>My Search Page</h1>
+    </div></>
   );
 }
 
