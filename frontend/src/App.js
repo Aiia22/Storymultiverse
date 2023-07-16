@@ -7,17 +7,19 @@ import MyList from "../src/pages/MyList";
 import Community from "../src/pages/Community";
 import SurpriseMe from "../src/pages/SurpriseMe";
 import MyAccount from "../src/pages/MyAccount";
+import Support from "../src/pages/Support";
 
 export default function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/my-search" element={<MySearch />} />
+        <Route path="/my-search" element={<MySearch/>} />
         <Route path="/my-list" element={<MyList />} />
         <Route path="/community" element={<Community />} />
         <Route path="/surprise-me" element={<SurpriseMe />} />
         <Route path="/my-account" element={<MyAccount />} />
+        <Route path="/support" element={<Support/>} />
       </Routes>
     </Router>
   );

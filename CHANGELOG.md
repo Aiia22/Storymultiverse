@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.0] 2023-07-16
+
+### Added
+
+- CSS file for NavBar
+- NavBar Component logic
+- Support Page
+- Images Folder
+
+### Changed
+
+- Removed Sass Folder (only use CSS from now on)
+
+### Fixed
+
+- webpack.config.js rules: accept .png, etc.
+
 ## [1.0.0] 2023-07-15
 
 ### Added

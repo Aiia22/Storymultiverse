@@ -1,10 +1,12 @@
 import React from "react";
+// Connecting the NavBar to the pages
+import Navbar from "../components/NavBar";
 
 export default function SurpriseMe() {
   return (
-    <div>
+    <><Navbar /><div>
       <h1>SurpriseMe page</h1>
-    </div>
+    </div></>
   );
 }
 
