@@ -1,12 +1,14 @@
 import React from "react";
 // Connecting the NavBar to the pages
+import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
 
 export default function Community() {
   return (
-    <><Navbar /><div>
+    <><><Navbar /><div>
       <h1>Community page</h1>
-    </div></>
+    </div></><FooterComponent /></>
+    
   );
 }
 
