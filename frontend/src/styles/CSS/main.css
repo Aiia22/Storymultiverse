@@ -1,0 +1,13 @@
+.container {
+  padding-left: 150px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #030f3b;
+}
+
+h2 {
+  font-weight: lighter;
+}

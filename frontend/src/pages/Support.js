@@ -5,10 +5,14 @@ import Navbar from "../components/NavBar";
 
 export default function Support() {
   return (
-    <><><Navbar /><div>
-      <h1>Customer Support</h1>
-    </div></><FooterComponent /></>
-
+    <div>
+      <Navbar />
+      <div className="container">
+        <h1>Support page</h1>
+        <h2>Here is your support plateform, we are here to help you!</h2>
+      </div>
+      <FooterComponent />
+    </div>
   );
 }
 
