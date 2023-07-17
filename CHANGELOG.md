@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0] 2023-07-16
+
+### Added
+
+- CSS File for Footer
+- Footer Componet logic
+
+
+### Changed
+
+- updated NavBar Style css
+
 ## [1.1.1] 2023-07-16
 
 ### Changed

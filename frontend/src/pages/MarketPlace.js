@@ -1,10 +1,10 @@
 import React from "react";
-
+import FooterComponent from "../components/FooterComponent";
 export default function MarketPlace() {
   return (
-    <div>
+    <><div>
       <h1>MarketPlace page</h1>
-    </div>
+    </div><FooterComponent /></>
   );
 }
 
