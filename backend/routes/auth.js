@@ -28,11 +28,14 @@ router.post("/register", async (req, res) => {
       return res.status(400).json({ error: error.details[0].message });
     }
 
-    // Process the registration logic
-    // ...
+    // Process the registration logic using the User model
+    const { username, email, password } = req.body;
+    // *** Additional validation here ***
+    // Create a new user using the User model
+    const user = await User.create({ username, email, password });
 
     // Return a success response or any relevant data
-    res.status(200).json({ message: "Registration successful" });
+    res.status(200).json({ message: "User uccessfully registered" });
   } catch (error) {
     // Handle any errors
     res.status(500).json({ error: "Internal Server Error" });
@@ -50,8 +53,16 @@ router.post("/login", async (req, res) => {
       return res.status(400).json({ error: error.details[0].message });
     }
 
-    // Process the login logic
-    // ...
+    // Process the login logic using the User model
+    const { email, password } = req.body;
+    // Additional validation here
+    // Find the user by email
+    const user = await User.findOne({ email });
+
+    // Check if the user exists and the password is correct
+    if (!user || !user.comparePassword(password)) {
+      return res.status(401).json({ error: "Invalid email or password" });
+    }
 
     // Generate an access token
     const accessToken = generateAccessToken(
