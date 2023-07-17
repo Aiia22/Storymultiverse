@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.] 2023-07-16
+
+### Changed 
+
+- Updated Footer Style css
 ## [1.2.0] 2023-07-16
 
 ### Added
