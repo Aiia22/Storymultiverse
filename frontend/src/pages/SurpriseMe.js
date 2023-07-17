@@ -5,9 +5,18 @@ import Navbar from "../components/NavBar";
 
 export default function SurpriseMe() {
   return (
-    <><><Navbar /><div>
-      <h1>Surprise Me page</h1>
-    </div></><FooterComponent /></>
+    <div>
+      <Navbar />
+      <div className="container">
+        <h1>Unlock the Multiverse</h1>
+        <h2>
+          Let our AI Choose choose for you, and Discover Limitless Adaptations!
+        </h2>
+        <SearchBar />
+        <SearchResults />
+      </div>
+      <FooterComponent />
+    </div>
   );
 }
 
