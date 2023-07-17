@@ -1,31 +1,46 @@
 # Changelog
 
-## [1.2.] 2023-07-16
+## Back [1.2.0] 2023-07-16
 
-### Changed 
+### Changed
 
-- Updated Footer Style css
-## [1.2.0] 2023-07-16
+- route: auth.js
+- model: user.js
+- controllers: authControlle.js and userController.js
+- Server
+- removed node_module on project root
+
+## UI [1.2.0] 2023-07-16
 
 ### Added
 
 - CSS File for Footer
 - Footer Componet logic
 
+## UI [1.2.0] 2023-07-16
+
+### Changed
+
+- Updated Footer Style css
+
+## UI [1.2.0] 2023-07-16
+
+### Added
+
+- CSS File for Footer
+- Footer Componet logic
 
 ### Changed
 
 - updated NavBar Style css
 
-## [1.1.1] 2023-07-16
+## UI [1.1.1] 2023-07-16
 
 ### Changed
 
 - updated NavBar Style css
 
-
-
-## [1.1.0] 2023-07-16
+## UI [1.1.0] 2023-07-16
 
 ### Added
 
