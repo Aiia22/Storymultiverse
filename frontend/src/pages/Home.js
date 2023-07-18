@@ -1,5 +1,9 @@
 import React from "react";
 import LandingPageNavbar from "../components/LandingPageNavBar";
+
+import "../styles/CSS/LandingPageNavBar.css";
+
+
 export default function Home() {
   
   return (
