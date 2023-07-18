@@ -1,5 +1,12 @@
 # Changelog
 
+### Added [1.3.0] 2023-07-16
+
+- Home page 
+### Added [1.2.1] 2023-07-16
+
+- Home page navbar component
+
 ## Back [1.2.0] 2023-07-16
 
 ### Changed
