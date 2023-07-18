@@ -1,14 +1,23 @@
 # Changelog
 
-### Added [1.3.1] 2023-07-16
+## UI [1.4.0] 2023-07-17
 
-- CSS file added for landingPage NavBar
-### Added [1.3.0] 2023-07-16
+### Added
 
-- Home page 
-### Added [1.2.1] 2023-07-16
+- Basic structure for seach page
+- SearchBar component
+- SearResult component
+- container for pages core functionalities
 
-- Home page navbar component
+### Changed
+
+- package.json file to specify UI or back from of items
+- package.json file to add correct versions
+
+### Fixed
+
+- MySearch page path
+- Nabar so it would stick to left side
 
 ## Back [1.2.0] 2023-07-16
 
@@ -20,20 +29,13 @@
 - Server
 - removed node_module on project root
 
-## UI [1.2.0] 2023-07-16
-
-### Added
-
-- CSS File for Footer
-- Footer Componet logic
-
-## UI [1.2.0] 2023-07-16
+## UI [1.3.1] 2023-07-16
 
 ### Changed
 
 - Updated Footer Style css
 
-## UI [1.2.0] 2023-07-16
+## UI [1.3.0] 2023-07-16
 
 ### Added
 
@@ -44,13 +46,13 @@
 
 - updated NavBar Style css
 
-## UI [1.1.1] 2023-07-16
+## UI [1.2.1] 2023-07-16
 
 ### Changed
 
 - updated NavBar Style css
 
-## UI [1.1.0] 2023-07-16
+## UI [1.2.0] 2023-07-16
 
 ### Added
 
@@ -67,7 +69,7 @@
 
 - webpack.config.js rules: accept .png, etc.
 
-## [1.0.0] 2023-07-15
+## UI [1.1.0] 2023-07-15
 
 ### Added
 
@@ -80,14 +82,14 @@
 
 - modify webpack.config.js to make sure client-side routing works properly
 
-## [1.0.0] 2023-07-15
+## UI [1.0.0] 2023-07-15
 
 ### Added
 
 - Set up between react server and node serve
 - Add proxy to connect
 
-## [1.0.0] 2023-07-15
+## UI [Unreleased] 2023-07-15
 
 ### Added
 
@@ -99,13 +101,13 @@
 
 - Rename components Header.js to Navbar.js
 
-## [1.0.0] 2023-07-15
+## UI [Unreleased] 2023-07-15
 
 ### Changed
 
 - Changed Style folder location in Frontend
 
-## [1.2.0] 2023-07-13
+## back [1.1.0] 2023-07-13
 
 ### Added
 
@@ -127,7 +129,7 @@
 
 - Refactored the server.js file for better organization and modularity.
 
-## [Unreleased] 2023-07-12
+## back [1.0.0] 2023-07-12
 
 ### Added
 
