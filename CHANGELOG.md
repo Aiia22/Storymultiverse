@@ -1,5 +1,8 @@
 # Changelog
 
+### Added [1.3.1] 2023-07-16
+
+- CSS file added for landingPage NavBar
 ### Added [1.3.0] 2023-07-16
 
 - Home page 
