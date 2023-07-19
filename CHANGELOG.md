@@ -1,5 +1,20 @@
 # Changelog
 
+## UI [1.5.3] 2023-07-19
+
+### Added 
+
+- Background image to Home Page
+- CSS style file updated
+
+## UI [1.5.2] 2023-07-19
+
+### Changed 
+
+- CSS Style file for footer
+- Added Icons for social media
+- Updated links to pages
+
 ## UI [1.5.1] 2023-07-18
 
 ### Added 
