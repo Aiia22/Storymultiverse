@@ -1,51 +1,90 @@
 /* footer.css */
 
 .footer {
-  background-color: #6b7493;
-  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f1f1f1;
+  color: #333; 
 }
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:unset;
+  align-items: center; /* Align items vertically in the center */
   max-width: 960px;
   margin: 0 auto;
 }
 
 .footer-section {
-  flex: 0 0 30%;
-  margin-bottom: 20px;
+  flex: 0 1 calc(15% - 2px); /* Adjust the width to fit all sections on one line with some spacing */
+  margin-bottom: 0; /* Remove the space between footer-sections */
+  font-size: 10px; /* Reduce the font size */
+}
+
+.footer-section:not(:last-child) {
+  margin-right: 0px; /* Add space between the footer-sections */
 }
 
 .footer-section h3 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-}
-
-.footer-section p,
-.footer-section ul {
   margin: 0;
-  padding: 0;
-  list-style: none;
+  margin-bottom: 0px; /* Reduce the space between footer-sections */
 }
 
-.footer-section ul li {
-  margin-bottom: 5px;
-}
-
-.footer-section a {
-  color: #333;
+.footer-section h3 a {
+  color: #333; /* Make the section titles white and remove underline */
   text-decoration: none;
 }
 
+.footer-section h3 a:hover {
+  text-decoration: underline; /* Add underline on hover for section titles */
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons h3 {
+  font-size: 15px; /* Reduce the font size for "Connect" */
+  margin-right: 15px; /* Add spacing between "Connect" and the icons */
+}
+
+.footer-icons a {
+  color: #333; /* Set the color of the icons to #f1f1f1 */
+  font-size: 10px; /* Reduce the font size for the icons */
+  margin-right: 5px; /* Add spacing between the icons */
+}
+
 .footer-bottom {
-  margin-top: 20px;
+  margin-top: 10px; /* Increase the margin-top value to create a bigger space */
   text-align: center;
 }
 
 .footer-bottom p {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px; /* Reduce the font size for the footer links */
   color: #777;
+}
+
+.footer-bottom p a {
+  color: #777; /* Set link color in the footer-bottom section */
+  text-decoration: none;
+}
+
+.footer-bottom p a:not(:last-child) {
+  margin-right: 8px; /* Add spacing between the links */
+}
+
+.footer-bottom p:before {
+  content: "|"; /* Add | before each link in the footer-bottom section */
+  margin-right: 8px;
+  color: #777;
+}
+
+.footer-bottom p:first-child:before {
+  content: ""; /* Remove | before the first link in the footer-bottom section */
 }
