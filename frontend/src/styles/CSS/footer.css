@@ -11,7 +11,7 @@
 
 .footer-container {
   display: flex;
-  justify-content:unset;
+  justify-content:center;
   align-items: center; /* Align items vertically in the center */
   max-width: 960px;
   margin: 0 auto;
@@ -35,7 +35,7 @@
 }
 
 .footer-section h3 a {
-  color: #333; /* Make the section titles white and remove underline */
+  color: #333; /* Make the section titles black and remove underline */
   text-decoration: none;
 }
 
@@ -49,18 +49,18 @@
 }
 
 .footer-icons h3 {
-  font-size: 15px; /* Reduce the font size for "Connect" */
-  margin-right: 15px; /* Add spacing between "Connect" and the icons */
+  font-size: 15px; /*Reduce the font size for "Connect" */
+  margin-right: 15px; /* Add spacing between "Connect" and the icons*/
 }
 
 .footer-icons a {
-  color: #333; /* Set the color of the icons to #f1f1f1 */
-  font-size: 10px; /* Reduce the font size for the icons */
+  color: #6b7493; /* Set the color of the icons to #6b7493 */
+  font-size: 15px; /* Reduce the font size for the icons */
   margin-right: 5px; /* Add spacing between the icons */
 }
 
 .footer-bottom {
-  margin-top: 10px; /* Increase the margin-top value to create a bigger space */
+  margin-top: 0px; /* Increase the margin-top value to create a bigger space */
   text-align: center;
 }
 
@@ -79,12 +79,3 @@
   margin-right: 8px; /* Add spacing between the links */
 }
 
-.footer-bottom p:before {
-  content: "|"; /* Add | before each link in the footer-bottom section */
-  margin-right: 8px;
-  color: #777;
-}
-
-.footer-bottom p:first-child:before {
-  content: ""; /* Remove | before the first link in the footer-bottom section */
-}
