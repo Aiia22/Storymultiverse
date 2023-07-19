@@ -1,0 +1,57 @@
+/* Basic styling for the homepage */
+.homepage {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f1f1f1; /* Set a background color as a fallback */
+  }
+  
+  /* Styling for the title */
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the title appears above the image */
+    color: #fff; /* Set font color to white for better contrast */
+  }
+  
+  /* Styling for the background Image */
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background-position: center;
+    width: 90%;
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  /* Styling for the buttons */
+  .buttons {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure the buttons appear above the image */
+  }
+  
+  .explore-button,
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles as needed */
+  
