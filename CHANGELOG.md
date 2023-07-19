@@ -1,5 +1,19 @@
 # Changelog
 
+## UI [1.5.1] 2023-07-18
+
+### Added 
+
+- Navbar component to Landing page
+- CSS tag for landing page styling 
+- Homepage background image to images
+
+## UI [1.5.0] 2023-07-18
+
+### Added 
+
+- Created Landingpage navbar component
+- CSS File for landing page navbar
 ## UI [1.4.0] 2023-07-17
 
 ### Added
