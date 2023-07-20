@@ -19,8 +19,8 @@
 
 .footer-section {
   flex: 0 1 calc(15% - 2px); /* Adjust the width to fit all sections on one line with some spacing */
-  margin-bottom: 0; /* Remove the space between footer-sections */
-  font-size: 10px; /* Reduce the font size */
+  margin-bottom: 0; 
+  font-size: 10px; 
 }
 
 .footer-section:not(:last-child) {
@@ -60,7 +60,7 @@
 }
 
 .footer-bottom {
-  margin-top: 0px; /* Increase the margin-top value to create a bigger space */
+  margin-top: 5px; /* Increase the margin-top value to create a bigger space */
   text-align: center;
 }
 

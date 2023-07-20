@@ -1,5 +1,5 @@
 import React from "react";
-
+import LandingPageNavBar from "../components/LandingPageNavBar";
 import HPIMG from "../images/HP_img.png";
 import "../styles/CSS/homePage.css"; // Import the CSS file for styling
 
@@ -15,7 +15,7 @@ function HomePage() {
       <div className="buttons">
         <button className="explore-button">Explore Now</button>
         <button className="login-button">Login</button>
-      </div>
+      </div><LandingPageNavBar />
     </div>
   );
 }
