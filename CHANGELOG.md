@@ -1,5 +1,11 @@
 # Changelog
 
+## UI [1.60] 2023-07-20
+
+### Changed 
+
+- Updated Landing Page component with Icons
+- Updated CSS file to reflect overal colouring and Icons
 ## UI [1.5.3] 2023-07-19
 
 ### Added 
