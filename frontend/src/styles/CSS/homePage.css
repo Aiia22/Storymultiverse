@@ -4,29 +4,29 @@
     text-align: center;
     padding: 20px;
     min-height: 100vh;
-    background-color: #f1f1f1; /* Set a background color as a fallback */
+    
   }
   
-  /* Styling for the title */
-  h1 {
-    font-size: 56px;
-    margin-bottom: 20px;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure the title appears above the image */
-    color: #fff; /* Set font color to white for better contrast */
-  }
+  /* Styling for the title-box */
+.title-box {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6b7493; /* Use rgba to set the background color with transparency */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1; /* Ensure the title-box appears above the background image */
+}
   
   /* Styling for the background Image */
   .backgroundImage {
     position: absolute;
     top: 0;
-    left: 100px;
+    
     background-position: center;
-    width: 90%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +36,7 @@
   /* Styling for the buttons */
   .buttons {
     position: absolute;
-    top: 500px;
+    top: 650px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; /* Ensure the buttons appear above the image */

@@ -1,6 +1,11 @@
 # Changelog
 
-## UI [1.60] 2023-07-20
+## UI [1.6.1] 2023-07-20
+### Changed 
+
+- Updated CSS file for home page
+
+## UI [1.6.0] 2023-07-20
 
 ### Changed 
 

@@ -10,12 +10,15 @@ function HomePage() {
 
   return (
     <div className="homepage">
-      <h1>Story Multiverse</h1>
+      <div className="title-box">
+        <h1 className="title">Story Multiverse</h1>
+      </div>
       <div className="backgroundImage" style={backgroundImageStyle}></div>
       <div className="buttons">
         <button className="explore-button">Explore Now</button>
         <button className="login-button">Login</button>
-      </div><LandingPageNavBar />
+      </div>
+      <LandingPageNavBar />
     </div>
   );
 }
