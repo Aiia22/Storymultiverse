@@ -5,7 +5,10 @@
 h1,
 h2 {
   text-align: center;
-  color: #eff0f3;
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  font-family: "Font-Type", sans-serif;
 }
 
 h2 {
