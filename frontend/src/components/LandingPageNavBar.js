@@ -34,3 +34,6 @@ export default function Navbar() {
     </div>
   );
 }
+
+//------- Copyright & references ---------------
+//https://legacy.reactjs.org/docs/create-a-new-react-app.html
