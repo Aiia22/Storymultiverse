@@ -1,8 +1,11 @@
 import React from "react";
 
-import LandingPageNavBar from "../components/LandingPageLogo";
+//******* Import component(s) *******/
+import LandingPageLogoPartner from "../components/LandingPageLogoPartner";
+
+//******* Import style logic *******/
 import HPIMG from "../images/HP_img.png";
-import "../styles/CSS/homePage.css"; // Import the CSS file for styling
+import "../styles/CSS/homePage.css";
 
 function HomePage() {
   const backgroundImageStyle = {
@@ -11,6 +14,7 @@ function HomePage() {
 
   return (
     <div className="homepage">
+      <div className="backgroundImage" style={backgroundImageStyle}></div>
       <div className="title-box">
         <h1 className="title">Story Multiverse</h1>
         <h2>Unlock the storyverse</h2>
@@ -19,7 +23,6 @@ function HomePage() {
           accross books, films, TV series, comics, and more!
         </h3>
       </div>
-      <div className="backgroundImage" style={backgroundImageStyle}></div>
       <div className="btn-container">
         <button className="btn">
           <a className="btnLink" href="/my-search">
@@ -33,7 +36,7 @@ function HomePage() {
           </a>
         </button>
       </div>
-      <LandingPageNavBar />
+      <LandingPageLogoPartner />
     </div>
   );
 }
