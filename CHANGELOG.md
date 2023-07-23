@@ -1,5 +1,23 @@
 # Changelog
 
+## UI [1.7.0] 2023-07-23
+
+### Changed
+
+- Pages: Login, Home, Mysearch, LandingPageNabar => LandingPageLogoPartner
+- Components: SearchBar, SearchResults, UserLogin
+- Removed some components not used/empty
+- Removed unused Sass and other dependencies from webpack.config.js file
+
+### Added
+
+- Pages: Contact,MySearchResult, MySearchSubResult, MySelectedResult
+- Components: BooksBubble, MoviesBubble, TvShowBubble, GamesBubble
+- Icons for search results
+- Added routes in App.js router for new search pages
+- Search logic using temporary a json (to be replace by DB logic)
+- data.json (containing all data for search feature)
+
 ## UI [1.6.2] 2023-07-22
 
 ### Changed

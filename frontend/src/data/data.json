@@ -1,0 +1,1065 @@
+{
+  "directors": [
+    {
+      "_id": "64bb134ccd2cce06435f2abc",
+      "name": "Chris Columbus"
+    },
+    {
+      "_id": "64bb134ccd2cce06435f2dbf ",
+      "name": "Haile Gerima"
+    },
+    {
+      "_id": "64bb1470cd2cce06435f2dc1 ",
+      "name": "Don Chaffey"
+    },
+    {
+      "_id": "64bb15dacd2cce06435f2dc3 ",
+      "name": "James Foley"
+    },
+    {
+      "_id": "64bb16d8cd2cce06435f2dc4",
+      "name": "Joseph Ruben"
+    },
+    {
+      "_id": "64bb16d8cd2cce06435f2dc4",
+      "name": "Brad Bird, Jan Pinkava"
+    },
+    {
+      "_id": "64bb16d8cd2cce06435f2dc4",
+      "name": "Sam Raimi"
+    },
+    {
+      "_id": "64bb16d8cd2cce06435f2dc4",
+      "name": "Mark Steven Johnson"
+    },
+    {
+      "_id": "64bc2f0c6542011ffa17e405",
+      "name": "Steve Bendelack"
+    },
+    {
+      "_id": "64bc300d6542011ffa17e406",
+      "name": "Kenneth Branagh"
+    },
+    {
+      "_id": "64bc30d06542011ffa17e407",
+      "name": "Gerard Johnstone"
+    },
+    {
+      "_id": "64bc31396542011ffa17e408",
+      "name": "Matt Reeves"
+    },
+    {
+      "_id": "64bc31d16542011ffa17e409",
+      "name": "Cate Shortland"
+    },
+    {
+      "_id": "64bc323f6542011ffa17e40a",
+      "name": "David Gordon Green"
+    },
+    {
+      "_id": "64bc32c86542011ffa17e40b",
+      "name": "Patty Jenkins"
+    },
+    {
+      "_id": "64bc33116542011ffa17e40c",
+      "name": "Niki Caro"
+    },
+    {
+      "_id": "64bc33f16542011ffa17e40d",
+      "name": "Gabriel Range"
+    },
+    {
+      "_id": "64bc35d26542011ffa17e40e",
+      "name": "John Frankenheime"
+    },
+    {
+      "_id": "64bc363a6542011ffa17e40f",
+      "name": "Julien Leclercq"
+    },
+    {
+      "_id": "64bc36916542011ffa17e410",
+      "name": "Andy Devonshire"
+    },
+    {
+      "_id": "64bc37286542011ffa17e411",
+      "name": "Gary Goddard"
+    },
+    {
+      "_id": "64bc37fa6542011ffa17e412",
+      "name": "Rhys Thomas"
+    },
+    {
+      "_id": "64bc39736542011ffa17e413",
+      "name": "Katarzyna Kochany"
+    },
+    {
+      "_id": "64bc3aa16542011ffa17e414",
+      "name": "Haruo Sotozaki"
+    },
+    {
+      "_id": "64bc3b146542011ffa17e415",
+      "name": "Yoshihide Ibata"
+    },
+    {
+      "_id": "64bc3bd56542011ffa17e417",
+      "name": "Yuichiro Hayashi"
+    }
+  ],
+
+  "productionCompanies": [
+    {
+      "_id": "64bb1473574d99870ca8fe34",
+      "name": "Warner Bros"
+    },
+    {
+      "_id": "64bb1569574d99870ca8fe35",
+      "name": "Disney"
+    },
+    {
+      "_id": "64bb160f574d99870ca8fe36",
+      "name": "Hemdale Film Corporation"
+    },
+    {
+      "_id": "64bb16b1574d99870ca8fe37",
+      "name": "20th Century Studios"
+    },
+    {
+      "_id": "64bc2c3ab6a4815111dd929a",
+      "name": "Pixar"
+    },
+    {
+      "_id": " 64bc2d52b6a4815111dd929b",
+      "name": "Sony"
+    },
+    {
+      "_id": "64bc2df8b6a4815111dd929c ",
+      "name": "Marvel"
+    },
+    {
+      "_id": "64bc2ec0b6a4815111dd929d ",
+      "name": "Gabor Csupo"
+    },
+    {
+      "_id": "64bc2f27b6a4815111dd929e ",
+      "name": "Tiger Aspect Productions"
+    },
+    {
+      "_id": "64bc307ab6a4815111dd929f ",
+      "name": "Blumhouse Productions"
+    },
+    {
+      "_id": "64bc311db6a4815111dd92a0 ",
+      "name": "DC Comics"
+    },
+    {
+      "_id": "64bc3218b6a4815111dd92a1 ",
+      "name": "Universal Pictures"
+    },
+    {
+      "_id": "64bc3377b6a4815111dd92a2 ",
+      "name": "Columbia Pictures"
+    },
+    {
+      "_id": "64bc33d0b6a4815111dd92a3 ",
+      "name": "Paramount Pictures"
+    },
+    {
+      "_id": "64bc3655b6a4815111dd92a4 ",
+      "name": "Labyrinthe Films"
+    },
+    {
+      "_id": "64bc36a8b6a4815111dd92a5 ",
+      "name": "Love Productions"
+    },
+    {
+      "_id": "64bc3741b6a4815111dd92a6 ",
+      "name": "Netflix"
+    },
+    {
+      "_id": "64bc3880b6a4815111dd92a7 ",
+      "name": "Wild Canary Animation"
+    },
+    {
+      "_id": "64bc3abab6a4815111dd92a8 ",
+      "name": "ufotable"
+    },
+    {
+      "_id": "64bc3b2cb6a4815111dd92a9 ",
+      "name": "MAPPA"
+    },
+    {
+      "_id": "64bc3c1bb6a4815111dd92aa ",
+      "name": "TV Tokyo"
+    },
+    {
+      "_id": "64bc535e6542011ffa17e421 ",
+      "name": "Nintendo "
+    },
+    {
+      "_id": "64bc53766542011ffa17e423 ",
+      "name": "Activision "
+    },
+    {
+      "_id": "64bc53806542011ffa17e424 ",
+      "name": "Microsoft Game Studios"
+    },
+    {
+      "_id": "64bc538e6542011ffa17e425 ",
+      "name": "Electronic Arts"
+    },
+    {
+      "_id": "64bc538e6542011ffa17e425 ",
+      "name": "Sony Computer Entertainment"
+    }
+  ],
+
+  "films": [
+    {
+      "_id": "64bb12993b4b60ca4d776836",
+      "name": "Sankofa",
+      "genre": "Drama",
+      "releaseDate": "2021-09-24",
+      "description": "On a photo shoot in Ghana, an American model slips back in time, becomes enslaved on a plantation an...",
+      "filmLenght": 125,
+      "directors": "64bb134ccd2cce06435f2dbf",
+      "cast": "Kofi Ghanaba, Oyafunmike Ogunlano, Alexandra Duah, Nick Medley, Mutabaruka, Afemo Omilami, Reggie Ca... ",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    },
+    {
+      "_id": "64bb14063b4b60ca4d776838",
+      "name": "Ride a Wild Pony",
+      "genre": "Romantic",
+      "releaseDate": "1975-11-02",
+      "description": "Scotty a wild pony to ride to and from school, the poor but proud boy falls instantly in love with...",
+      "filmLenght": 91,
+      "directors": "64bb1470cd2cce06435f2dc1",
+      "cast": "Michael Craig, John Meillon, Eva Griffith, Graham Rouse",
+      "productionCompanies": "64bb1569574d99870ca8fe35"
+    },
+    {
+      "_id": "64bb15cc3b4b60ca4d77683a",
+      "name": "At Close Range",
+      "genre": "Drama",
+      "releaseDate": "1986-04-18",
+      "description": "Young Brad lives with his grandmother and separated mom until dad, a criminal from r...",
+      "filmLenght": 115,
+      "directors": "64bb15dacd2cce06435f2dc3",
+      "cast": "Christopher Walken, Sean Penn, Chris Penn",
+      "productionCompanies": "64bb160f574d99870ca8fe36"
+    },
+    {
+      "_id": "64bb16ec3b4b60ca4d77683b",
+      "name": "Sleeping with the Enemy",
+      "genre": " Thriller/Mystery",
+      "releaseDate": "1991-02-08",
+      "description": "Martin and Laura Burney have been married for more than three years, but for her it was three years ...",
+      "filmLenght": 96,
+      "directors": "64bb16d8cd2cce06435f2dc4",
+      "cast": "Julia Roberts, Patrick Bergin, Kevin Anderson, Elizabeth Lawrence",
+      "productionCompanies": "64bb16b1574d99870ca8fe37"
+    },
+    {
+      "_id": "64bb18503b4b60ca4d77683c",
+      "name": "Birth of the Dragon",
+      "genre": "Adventure",
+      "releaseDate": "2016-09-16",
+      "description": "Young Bruce Lee is trying to make a name for himself while working as a martial arts instructor..",
+      "filmLenght": 115,
+      "directors": "64bb16d8cd2cce06435f2dc4",
+      "cast": "Billy Magnussen, Ron Yuan",
+      "productionCompanies": "64bb16b1574d99870ca8fe37"
+    },
+    {
+      "_id": "64bc2c4b7b8fc35dbca60e58",
+      "name": "Ratatouille",
+      "genre": "Animation",
+      "releaseDate": "2007-06-29",
+      "description": "Passionate about gastronomy, the French mouse Rémy leaves the countryside and goes to live in the se...",
+      "filmLenght": 111,
+      "directors": "64bc2c876542011ffa17e402",
+      "cast": null,
+      "productionCompanies": "64bc2c3ab6a4815111dd929a"
+    },
+    {
+      "_id": "64bc2d4b7b8fc35dbca60e59",
+      "name": "Spider-Man 3",
+      "genre": "Super-hero ",
+      "releaseDate": "2007-05-04",
+      "description": "The Spider-Man costume turns black and Peter Parker himself transforms, becoming very confident and ...",
+      "filmLenght": 156,
+      "directors": " 64bc2d886542011ffa17e403",
+      "cast": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church",
+      "productionCompanies": "64bc2d52b6a4815111dd929b"
+    },
+    {
+      "_id": "64bc2dd57b8fc35dbca60e5a",
+      "name": "Ghost Rider",
+      "genre": "Action",
+      "releaseDate": "2007-02-16",
+      "description": "Johnny Blaze is a motorcycle stuntman: one day he sells his soul to the devil and agrees to host a v...",
+      "filmLenght": 114,
+      "directors": "64bc2e176542011ffa17e404",
+      "cast": "Nicolas Cage, Eva Mendes, Peter Fonda, Raquel Alessi, Wes Bentley, Sam Elliott ",
+      "productionCompanies": "64bc2df8b6a4815111dd929c"
+    },
+    {
+      "_id": "64bc2e877b8fc35dbca60e5c",
+      "name": "Bridge to Terabithia ",
+      "genre": "Fantasy",
+      "releaseDate": "2007-05-04",
+      "description": "Jesse loves to paint, but both his family and his schoolmates make fun of him. When he meets Leslie,...",
+      "filmLenght": 95,
+      "directors": "64bc2ec0b6a4815111dd929d",
+      "cast": "Josh Hutcherson, AnnaSophia Robb, Robert Patrick",
+      "productionCompanies": "64bb1569574d99870ca8fe35"
+    },
+    {
+      "_id": "64bc2ed97b8fc35dbca60e5e",
+      "name": "Mr. Bean's Holiday",
+      "genre": "Comedy",
+      "releaseDate": "2008-03-24",
+      "description": "Mr. Bean wins the first prize in the parish lottery and finds himself for a week in the South of Fra...",
+      "filmLenght": 90,
+      "directors": "64bc2f0c6542011ffa17e405",
+      "cast": "Rowan Atkinson, Willem Dafoe, Emma de Caunes, Jean Rochefort",
+      "productionCompanies": "64bc2f27b6a4815111dd929e"
+    },
+    {
+      "_id": "64bc2fdf7b8fc35dbca60e60",
+      "name": "Death on the Nile",
+      "genre": "Thriller",
+      "releaseDate": "2022-02-11",
+      "description": "The Detective Hercule Poirot is aboard a fascinating cruise boat on the Nilo river, of which two you...",
+      "filmLenght": 134,
+      "directors": "64bc300d6542011ffa17e406",
+      "cast": "Kenneth Branagh, Tom Bateman, Annette Bening, Gal Gadot",
+      "productionCompanies": "64bb16b1574d99870ca8fe37"
+    },
+    {
+      "_id": "64bc30467b8fc35dbca60e61",
+      "name": "M3GAN",
+      "genre": "Horror",
+      "releaseDate": "2023-01-06",
+      "description": "Gemma deals with robotics and works for a toy company who is about to launch a robot doll so cutting...",
+      "filmLenght": 102,
+      "directors": "64bc30d06542011ffa17e407",
+      "cast": "Allison Williams, Ronny Chieng, Violet McGraw, Brian Jordan Alvarez",
+      "productionCompanies": "64bc307ab6a4815111dd929f"
+    },
+    {
+      "_id": "64bc30f27b8fc35dbca60e62",
+      "name": "The Batman",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Bruce Wayne, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "filmLenght": 175,
+      "directors": "64bc31396542011ffa17e408",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64bc311db6a4815111dd92a0"
+    },
+    {
+      "_id": "64bc31537b8fc35dbca60e63",
+      "name": "Dune",
+      "genre": "Fantasy",
+      "releaseDate": "2021-10-21",
+      "description": "Paul Atreides, a brilliant and talented young man born with a great destiny beyond his understanding...",
+      "filmLenght": 155,
+      "directors": "64bc2f0c6542011ffa17e405",
+      "cast": "Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    },
+    {
+      "_id": "64bc31a07b8fc35dbca60e64",
+      "name": "Black Widow",
+      "genre": "Super-hero",
+      "releaseDate": "2021-07-09",
+      "description": "When a dangerous plot comes to light, Natasha Romanoff aka Black Widow is faced with the darker side...",
+      "filmLenght": 133,
+      "directors": "64bc31d16542011ffa17e409",
+      "cast": "Scarlett Johansson, David Harbour, Florence Pugh, Rachel Weisz",
+      "productionCompanies": "64bc2df8b6a4815111dd929c"
+    },
+    {
+      "_id": "64bc31f17b8fc35dbca60e65",
+      "name": "Halloween Kills",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64bc323f6542011ffa17e40a",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64bc3218b6a4815111dd92a1"
+    },
+    {
+      "_id": "64bc328e7b8fc35dbca60e66",
+      "name": "Wonder Woman 1984",
+      "genre": "Action",
+      "releaseDate": "2020-12-16",
+      "description": "Wonder Woman is faced in 1984 with two entirely new enemies: the super villain Cheetah and Max Lord....",
+      "filmLenght": 151,
+      "directors": "64bc32c86542011ffa17e40b",
+      "cast": "Gal Gadot, Chris Pine, Kristen Wiig, Pedro Pascal, Robin Wright",
+      "productionCompanies": "64bc311db6a4815111dd92a0"
+    },
+    {
+      "_id": "64bc32e27b8fc35dbca60e67",
+      "name": "Mulan",
+      "genre": "Adventure",
+      "releaseDate": "2020-07-24",
+      "description": "Hua Mulan is a fearless young woman who disguises herself as a man to defend China from attack by in... ",
+      "filmLenght": 120,
+      "directors": "64bc33116542011ffa17e40c",
+      "cast": "Yifei Liu, Donnie Yen, Jet Li, Jason Scott Lee",
+      "productionCompanies": "64bb1569574d99870ca8fe35"
+    },
+    {
+      "_id": "64bc33507b8fc35dbca60e69",
+      "name": "Bad Boys for Life",
+      "genre": "Action",
+      "releaseDate": "2020-01-17",
+      "description": "Marcus Burnett has become a grandfather and is considering retirement. Mike Lowery, on the other han...",
+      "filmLenght": 123,
+      "directors": "64bc32c86542011ffa17e40b",
+      "cast": "Will Smith, Martin Lawrence, Joe Pantoliano, Paola Núñez",
+      "productionCompanies": "64bc3377b6a4815111dd92a2"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e6a",
+      "name": "Stardust",
+      "genre": "Biography",
+      "releaseDate": "2020-11-27",
+      "description": "In 1971, at the age of 21, David Bowie embarks on his first trip to America together with his press ... ",
+      "filmLenght": 104,
+      "directors": "64bc33f16542011ffa17e40d",
+      "cast": "Johnny Flynn, Marc Maron, Jena Malone, Anthony Flanagan",
+      "productionCompanies": "64bc33d0b6a4815111dd92a3"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e10",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64bb134ccd2cce06435f2abc",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e12",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64bb134ccd2cce06435f2abc",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e15",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64bb134ccd2cce06435f2abc",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e50",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Goblet of Fire",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64bb134ccd2cce06435f2abc",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64bb1473574d99870ca8fe34"
+    }
+  ],
+
+  "tvShows": [
+    {
+      "_id": "64bc35697b8fc35dbca60e6b",
+      "name": "Dead-Bang ",
+      "genre": "Crime",
+      "releaseDate": "1989-03-24",
+      "description": "In the throes of a double murder, Jerry Beck, of the Los Angeles police, falls into the hell of a ne... ",
+      "showLength": 109,
+      "directors": "64bc35d26542011ffa17e40e",
+      "cast": "Don Johnson, Penelope Ann Miller, William Forsythe, Bob Balaban",
+      "productionCompanies": "64bc2ec0b6a4815111dd929d "
+    },
+    {
+      "_id": "64bc36167b8fc35dbca60e6d",
+      "name": "Ganglands",
+      "genre": "Action",
+      "releaseDate": "2021-09-24",
+      "description": "To protect his family from a powerful drug lord, skilled thief Mehdi and his expert team of robbers ... ",
+      "showLength": 44,
+      "directors": "64bc363a6542011ffa17e40f",
+      "cast": "Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabiha Akkari",
+      "productionCompanies": "64bc3655b6a4815111dd92a4  "
+    },
+    {
+      "_id": "64bc36727b8fc35dbca60e6e",
+      "name": "The Great British Baking Show",
+      "genre": "Baking",
+      "releaseDate": "2010-08-17",
+      "description": "A talented batch of amateur bakers face off in a 10-week competition, whipping up their best dishes ... ",
+      "showLength": 60,
+      "directors": "64bc36916542011ffa17e410 ",
+      "cast": "Mel Giedroyc, Sue Perkins, Mary Berry, Paul Hollywood",
+      "productionCompanies": "64bc36a8b6a4815111dd92a5 "
+    },
+    {
+      "_id": "64bc36be7b8fc35dbca60e6f",
+      "name": "Tayo and Little Wizards ",
+      "genre": "kids",
+      "releaseDate": "2021-09-17",
+      "description": "Tayo speeds into an adventure when his friends get kidnapped by evil magicians invading their city i...",
+      "showLength": 25,
+      "directors": null,
+      "cast": "Dami Lee, Jason Lee, Bommie Catherine Han",
+      "productionCompanies": "64bc2c3ab6a4815111dd929a"
+    },
+    {
+      "_id": "64bc370d7b8fc35dbca60e70",
+      "name": "He-Man and the Masters of the Universe",
+      "genre": "Action",
+      "releaseDate": "1989-03-24",
+      "description": "Mighty teen Adam and his heroic squad of misfits discover the legendary power of Grayskull — and the... ",
+      "showLength": 23,
+      "directors": "64bc37286542011ffa17e411",
+      "cast": "Yuri Lowenthal, Kimberly Brooks, Antony Del Rio, Trevor Devall",
+      "productionCompanies": "64bc3741b6a4815111dd92a6 "
+    },
+    {
+      "_id": "64bc37c47b8fc35dbca60e71",
+      "name": "Hawkeye",
+      "genre": "Action",
+      "releaseDate": "2021-11-12",
+      "description": "Clint Barton/Hawkeye must team up with skilled archer Kate Bishop to unravel a criminal conspiracy.",
+      "showLength": 45,
+      "directors": "64bc37fa6542011ffa17e412",
+      "cast": "Jeremy Renner, Hailee Steinfeld, Vera Farmiga, Fra Fee",
+      "productionCompanies": "64bc2df8b6a4815111dd929c"
+    },
+    {
+      "_id": "64bc38127b8fc35dbca60e72",
+      "name": "The Wild Life of Dr. Ole ",
+      "genre": "Action",
+      "releaseDate": "2021-10-20",
+      "description": "Doc Ole practices his unique brand of animal care with wit, expertise and insight. ",
+      "showLength": 40,
+      "directors": null,
+      "cast": "Ole Alcumbrac",
+      "productionCompanies": "64bc3741b6a4815111dd92a6"
+    },
+    {
+      "_id": "64bc38497b8fc35dbca60e73",
+      "name": "Chicken Squad ",
+      "genre": "Comedy",
+      "releaseDate": "2021-08-11",
+      "description": "BAGAWK! Say hello to the Chicken Squad. ",
+      "showLength": 22,
+      "directors": "64bb15dacd2cce06435f2dc3",
+      "cast": "Ramone Hamilton, Gabriella Graves, Maxwell Simkins",
+      "productionCompanies": "64bc3880b6a4815111dd92a7"
+    },
+    {
+      "_id": "64bc38937b8fc35dbca60e74",
+      "name": "Loki",
+      "genre": "Super-hero ",
+      "releaseDate": "2021-06-09",
+      "description": "The mercurial villain Loki (Tom Hiddleston) resumes his role as the God of Mischief.",
+      "showLength": 45,
+      "directors": "64bc32c86542011ffa17e40b",
+      "cast": "Tom Hiddleston ",
+      "productionCompanies": "64bc2df8b6a4815111dd929c"
+    },
+    {
+      "_id": "64bc38d17b8fc35dbca60e75",
+      "name": "Star Wars Vehicle Flythroughs ",
+      "genre": "Documentary",
+      "releaseDate": "2021-05-04",
+      "description": "Fly through some of the most iconic Star Wars ships and vehicles.",
+      "showLength": 5,
+      "directors": null,
+      "cast": null,
+      "productionCompanies": "64bb1569574d99870ca8fe35"
+    },
+    {
+      "_id": "64bc39497b8fc35dbca60e76",
+      "name": "Zahara: The Return ",
+      "genre": "Fantasy ",
+      "releaseDate": "2020-04-10",
+      "description": "The story explores the history of slavery and racism, and the tensions between a white supernatural world ..",
+      "showLength": 8,
+      "directors": "64bc39736542011ffa17e413",
+      "cast": "Natasha Heschélle, Curtis Morgan, Hannah Scott",
+      "productionCompanies": "64bc2ec0b6a4815111dd929d"
+    },
+    {
+      "_id": "64bc39b27b8fc35dbca60e77",
+      "name": "Wendy",
+      "genre": "Documentary",
+      "releaseDate": "2016-06-17",
+      "description": "Wendy is determined to hold on to her happiness but this put at risk by her ...",
+      "showLength": 30,
+      "directors": "64bc2f0c6542011ffa17e405",
+      "cast": "Christa Clahane, Abbe Hoekstra, Zena Drive, Kyle Orzeck",
+      "productionCompanies": "64bc3377b6a4815111dd92a2"
+    },
+    {
+      "_id": "64bc3a127b8fc35dbca60e78",
+      "name": "Nailed It",
+      "genre": "Baking",
+      "releaseDate": "2021-09-15",
+      "description": "Home bakers with a terrible track record take a crack at re-creating edible masterpieces for a $10,0.. ",
+      "showLength": 35,
+      "directors": null,
+      "cast": "Nicole Byer, Jacques Torres",
+      "productionCompanies": "64bc3741b6a4815111dd92a6 "
+    },
+    {
+      "_id": "64bc3a457b8fc35dbca60e79",
+      "name": "The Circle ",
+      "genre": "Reality",
+      "releaseDate": "2021-09-08",
+      "description": "Status and strategy collide in this social experiment and competition show where online players flir... ",
+      "showLength": 25,
+      "directors": null,
+      "cast": "Michelle Buteau ",
+      "productionCompanies": "64bc3741b6a4815111dd92a6 "
+    },
+    {
+      "_id": "64bc3a7b7b8fc35dbca60e7a",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc ",
+      "genre": "Action",
+      "releaseDate": "2019-04-06",
+      "description": "Tanjiro and his friends accompany the Hashira Tengen Uzui to an entertainment district where Tengen... ",
+      "showLength": 25,
+      "directors": "64bc3aa16542011ffa17e414",
+      "cast": "Yoshitsugu Matsuoka,Akari Kitou, Natsuki Hana",
+      "productionCompanies": "64bc3abab6a4815111dd92a8"
+    },
+    {
+      "_id": "64bc3ad27b8fc35dbca60e7b",
+      "name": "Fruits Basket the Final Season ",
+      "genre": "Drama",
+      "releaseDate": "2019-04-05",
+      "description": "The final arc of Fruits Basket. ",
+      "showLength": 25,
+      "directors": "64bc3b146542011ffa17e415",
+      "cast": "Maaya Sakamoto, Kyo Sohma",
+      "productionCompanies": "64bc3b2cb6a4815111dd92a9 "
+    },
+    {
+      "_id": "64bc3b647b8fc35dbca60e7c",
+      "name": "Jujutsu Kaisen",
+      "genre": "Supernatural ",
+      "releaseDate": "2020-10-03",
+      "description": "Although Yuji Itadori looks like your average teenager, his immense physical strength is something ... ",
+      "showLength": 25,
+      "directors": "64bc3b146542011ffa17e415",
+      "cast": "Yuuma Uchida, Nobara Kugisaki",
+      "productionCompanies": "64bc3b2cb6a4815111dd92a9"
+    },
+    {
+      "_id": "64bc3baa7b8fc35dbca60e7d",
+      "name": "Attack on Titan",
+      "genre": "Action",
+      "releaseDate": "2021-05-04",
+      "description": "Continuation of Attacks on Titan The Final Season. ",
+      "showLength": 35,
+      "directors": "64bc3bd56542011ffa17e417",
+      "cast": "Marina Inoue, Mikasa Ackerman",
+      "productionCompanies": "64bc3b2cb6a4815111dd92a9"
+    },
+    {
+      "_id": "64bc3c087b8fc35dbca60e7e",
+      "name": "Black Clover",
+      "genre": "Supernatural ",
+      "releaseDate": "2023-06-16",
+      "description": "The story follows Asta, a young boy born without any magic power who is given a rare grimoire that grants him anti-magic abilities",
+      "showLength": 25,
+      "directors": "64bc3bd56542011ffa17e417",
+      "cast": null,
+      "productionCompanies": "64bc3c1bb6a4815111dd92aa"
+    },
+    {
+      "_id": "20",
+      "name": "JoJo's Bizarre Adventure: Stone Ocean ",
+      "genre": "Adventure",
+      "releaseDate": "2012-10-06",
+      "description": "'Florida, U.S.A, 2011 After an accident while on a drive with her sweetheart, Jolyne Cujoh falls int...",
+      "showLength": "35 minutes",
+      "directors": null,
+      "cast": "olyne Kujo : Fairouz Ai, Emporio Alnino : Atsumi Tanezaki, Enrico",
+      "productionCompanies": "David Production"
+    }
+  ],
+  "authors": [
+    {
+      "_id": "64bc481db6a4815111dd92ab ",
+      "name": "Charles Dickens "
+    },
+    {
+      "_id": "64bc4878b6a4815111dd92ac ",
+      "name": "J. K. Rowling "
+    },
+    {
+      "_id": "64bc48fbb6a4815111dd92ad ",
+      "name": "J.R.R.Tolkien "
+    },
+    {
+      "_id": "64bc4954b6a4815111dd92ae",
+      "name": "John Broome"
+    },
+    {
+      "_id": "64bc49bbb6a4815111dd92af ",
+      "name": "Eiichiro Oda "
+    },
+    {
+      "_id": "64bc49feb6a4815111dd92b0 ",
+      "name": "Akira Toriyama "
+    },
+    {
+      "_id": "64bc4aac6c9902dbb741c87f ",
+      "name": "E.J.W Barber "
+    },
+    {
+      "_id": "64bc4affb6a4815111dd92b2 ",
+      "name": "Niccolo Machiavelli"
+    },
+    {
+      "_id": "64bc4b4ab6a4815111dd92b3 ",
+      "name": "Michael Crichton"
+    }
+  ],
+
+  "publishingCompanies": [
+    {
+      "_id": " 64bc48356542011ffa17e419",
+      "name": "Simon & Schuster "
+    },
+    {
+      "_id": "64bc48946542011ffa17e41a ",
+      "name": "Scholastic Corporation "
+    },
+    {
+      "_id": "64bc48e16542011ffa17e41b ",
+      "name": "Houghton Mifflin Harcourt"
+    },
+    {
+      "_id": "64bc49c66542011ffa17e41d ",
+      "name": "Shueisha "
+    },
+    {
+      "_id": "64bc4ac26542011ffa17e41e ",
+      "name": "W W Norton & Co Inc "
+    },
+    {
+      "_id": "64bc4b186542011ffa17e41f ",
+      "name": "Signet Book "
+    },
+    {
+      "_id": "64bc4b556542011ffa17e420 ",
+      "name": "Ballantine Books "
+    }
+  ],
+  "books": [
+    {
+      "_id": "64bc47697b8fc35dbca60e7f",
+      "name": "A Tale of Two Cities ",
+      "genre": "Historical Fiction",
+      "bookPublishedDate": "1859-11-26",
+      "description": " 8-year-long imprisonment in the Bastille in Paris, and his release to live in London with his daughter ...",
+      "readingLenght": 558,
+      "bookSeries": false,
+      "author": "64bc481db6a4815111dd92ab",
+      "publishingCompanies": "64bc48356542011ffa17e419 "
+    },
+    {
+      "_id": "64bc48537b8fc35dbca60e80",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64bc4878b6a4815111dd92ac",
+      "publishingCompanies": "64bc48946542011ffa17e41a"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e45",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2002-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64bc4878b6a4815111dd92ac",
+      "publishingCompanies": "64bc48946542011ffa17e41a"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e66",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2002-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64bc4878b6a4815111dd92ac",
+      "publishingCompanies": "64bc48946542011ffa17e41a"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e13",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Goblet of Fire",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2002-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64bc4878b6a4815111dd92ac",
+      "publishingCompanies": "64bc48946542011ffa17e41a"
+    },
+    {
+      "_id": "64bc48ab7b8fc35dbca60e81",
+      "name": "The Hobbit",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64bc48fbb6a4815111dd92ad",
+      "publishingCompanies": "64bc48e16542011ffa17e41b "
+    },
+    {
+      "_id": "64bc49227b8fc35dbca60e82",
+      "name": "Green Lantern Vol 2 ",
+      "genre": "Super-hero ",
+      "bookPublishedDate": "2019-09-10",
+      "description": " The Green Lantern Corps continue their missions...",
+      "readingLenght": 20,
+      "bookSeries": false,
+      "author": "64bc4954b6a4815111dd92ae",
+      "publishingCompanies": "64bc311db6a4815111dd92a0"
+    },
+    {
+      "_id": "64bc49947b8fc35dbca60e83",
+      "name": "One Piece ",
+      "genre": "Adventure",
+      "bookPublishedDate": "1999-10-20",
+      "description": " Follows the adventures of Monkey D. Luffy an..",
+      "readingLenght": 30,
+      "bookSeries": true,
+      "author": "64bc49bbb6a4815111dd92af ",
+      "publishingCompanies": "64bc49c66542011ffa17e41d "
+    },
+    {
+      "_id": "64bc49dc7b8fc35dbca60e84",
+      "name": "Dragon Ball",
+      "genre": "Comic",
+      "bookPublishedDate": "1989-04-26",
+      "description": " Son Gokû, a fighter with a monkey tail, goes..",
+      "readingLenght": 30,
+      "bookSeries": true,
+      "author": "64bc49feb6a4815111dd92b0",
+      "publishingCompanies": "64bc49c66542011ffa17e41d "
+    },
+    {
+      "_id": "64bc4a2f7b8fc35dbca60e85",
+      "name": "My Hero Academia",
+      "genre": "Super-hero ",
+      "bookPublishedDate": "2014-07-07",
+      "description": "Izuku Midoriya, a boy born without any powers,.. ",
+      "readingLenght": 30,
+      "bookSeries": true,
+      "author": "64bc49bbb6a4815111dd92af",
+      "publishingCompanies": "64bc49c66542011ffa17e41d "
+    },
+    {
+      "_id": "64bc4a7e7b8fc35dbca60e86",
+      "name": "The Mummies of Urumchi",
+      "genre": "History",
+      "bookPublishedDate": "1998-12-21",
+      "description": " Some of Ürümchi's mummies date back as far as 4,000 years--contemporary..",
+      "readingLenght": 200,
+      "bookSeries": false,
+      "author": "64bc4aac6c9902dbb741c87f",
+      "publishingCompanies": "64bc4ac26542011ffa17e41e "
+    },
+    {
+      "_id": "64bc4ae17b8fc35dbca60e87",
+      "name": "The Prince ",
+      "genre": "Historical Fiction",
+      "bookPublishedDate": "2004-06-01",
+      "description": " Accepting that the aims of princes – such as glory and survival ..",
+      "readingLenght": 88,
+      "bookSeries": false,
+      "author": "64bc4affb6a4815111dd92b2",
+      "publishingCompanies": "64bc4b186542011ffa17e41f "
+    },
+    {
+      "_id": "64bc4b297b8fc35dbca60e88",
+      "name": "Congo",
+      "genre": "Science fiction",
+      "bookPublishedDate": "1995-06-30",
+      "description": " expedition searching for diamonds and investigating the mysterio..",
+      "readingLenght": 370,
+      "bookSeries": false,
+      "author": "64bc4b4ab6a4815111dd92b3",
+      "publishingCompanies": "64bc4b556542011ffa17e420"
+    }
+  ],
+
+  "games": [
+    {
+      "_id": "64bc53b1b6a4815111dd92b4",
+      "name": "Wii Sports ",
+      "genre": "Sports",
+      "releaseDate": "2006-11-19",
+      "description": "five separate sports games: tennis, baseball, bowling, golf, and boxing..",
+      "gameLenght": 850,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc535e6542011ffa17e421"
+    },
+    {
+      "_id": "64bc48537b8fc35dbca60e80",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "gameLenght": 850,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc535e6542011ffa17e421"
+    },
+    {
+      "_id": "64bc33ab7b8fc35dbca60e45",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "genre": "Fantasy",
+      "releaseDate": "2002-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "gameLenght": 850,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc535e6542011ffa17e421"
+    },
+    {
+      "_id": "64bc542db6a4815111dd92b5",
+      "storyName": "Mario",
+      "name": "Super Mario Bros.",
+      "genre": "Platform",
+      "releaseDate": "1983-04-04",
+      "description": "Mario must race through the Mushroom Kingdom ...",
+      "gameLenght": 120,
+      "gameSeries": true,
+      "gameCharacters": "Mario, Lugi, Peach",
+      "productionCompanies": "64bc535e6542011ffa17e421"
+    },
+    {
+      "_id": "64bc5455b6a4815111dd92b6",
+      "name": "Call of Duty: Black Ops ",
+      "genre": "Shooter",
+      "releaseDate": "2010-11-09",
+      "description": "Black Ops takes you deep behind enemy lines into the world ...",
+      "gameLenght": 420,
+      "gameSeries": true,
+      "gameCharacters": "Alex Mason, Frank Woods, Jason Hudson",
+      "productionCompanies": "64bc536b6542011ffa17e422"
+    },
+    {
+      "_id": "64bc548fb6a4815111dd92b7",
+      "name": "Call of Duty: Modern Warfare 2  ",
+      "genre": "Shooter",
+      "releaseDate": "2009-11-10",
+      "description": "first person shooter, and its gameplay revolves around fast-paced gun...",
+      "gameLenght": 480,
+      "gameSeries": true,
+      "gameCharacters": "Captain John Price, Soap MacTavish, Colonel Alejandro Vargas",
+      "productionCompanies": "64bc536b6542011ffa17e422"
+    },
+    {
+      "_id": "64bc54b9b6a4815111dd92b8",
+      "name": "Minecraft",
+      "genre": "Misc",
+      "releaseDate": "2011-11-18",
+      "description": "explore a blocky, procedurally generated, three-dimensional world  ...",
+      "gameLenght": 10560,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc53766542011ffa17e423"
+    },
+    {
+      "_id": "64bc4b297b8fc35dbca60e88",
+      "name": "Fable III ",
+      "genre": "Role-Playing",
+      "releaseDate": "2010-10-26",
+      "description": "Fable III takes place on the fictional continent ...",
+      "gameLenght": 780,
+      "gameSeries": true,
+      "gameCharacters": "Sabine,Reaver",
+      "productionCompanies": "64bc53766542011ffa17e423"
+    },
+    {
+      "_id": "64bc551eb6a4815111dd92ba",
+      "name": "FIFA 17",
+      "genre": "Sports",
+      "releaseDate": "2016-09-27",
+      "description": "FIFA 17 immerses you in authentic football exp...",
+      "gameLenght": 5160,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc53806542011ffa17e424 "
+    },
+    {
+      "_id": "64bc5552b6a4815111dd92bb",
+      "name": "The Lord of the Rings: The Two Towers",
+      "genre": "Action",
+      "releaseDate": "2002-12-18",
+      "description": "Frodo and Sam arrive in Mordor with the help of Gollum...",
+      "gameLenght": 360,
+      "gameSeries": true,
+      "gameCharacters": "Gollum, Frodo, Legolas, Sam",
+      "productionCompanies": "64bc53806542011ffa17e424"
+    },
+    {
+      "_id": "64bc5588b6a4815111dd92bc",
+      "name": "God of War II ",
+      "genre": "Action",
+      "releaseDate": "2007-03-13",
+      "description": "Greek mythology and set in ancient Greece, with vengeance ...",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "Ares,Kratos, the Oracle of Athens",
+      "productionCompanies": "64bc538e6542011ffa17e425 "
+    },
+    {
+      "_id": "64bc55c5b6a4815111dd92bd",
+      "name": "Namco Museum Vol.3",
+      "genre": "Misc",
+      "releaseDate": "1996-06-21",
+      "description": "offers up the most exciting titles found in our massive arcade archives...",
+      "gameLenght": 1140,
+      "gameSeries": false,
+      "gameCharacters": null,
+      "productionCompanies": "64bc538e6542011ffa17e425 "
+    }
+  ]
+}

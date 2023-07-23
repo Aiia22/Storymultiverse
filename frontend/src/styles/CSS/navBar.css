@@ -11,16 +11,18 @@
 }
 img:hover {
   background-color: #bcc1d6;
+  padding: 4px 8px;
+  border-radius: 5px;
 }
 #navBarIcon {
-  height: 60px;
+  height: 40px;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 #navBarIcon2 {
-  height: 60px;
+  height: 40px;
   display: block;
   margin: 0 auto;
   margin-top: 100px;
