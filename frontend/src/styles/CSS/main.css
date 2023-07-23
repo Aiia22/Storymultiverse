@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #342658;
+}
+
 .container {
   padding-left: 150px;
 }
@@ -5,12 +12,15 @@
 h1,
 h2 {
   text-align: center;
-  color: #fff;
-  font-size: 60px;
   margin: 0;
   font-family: "Font-Type", sans-serif;
+}
+h1 {
+  font-size: 44px;
 }
 
 h2 {
   font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
 }

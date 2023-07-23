@@ -1,26 +1,38 @@
 # Changelog
 
+## UI [1.6.2] 2023-07-22
+
+### Changed
+
+- Enhance home page , change icon for logo
+
+### Added
+
+- Create login page
+
 ## UI [1.6.1] 2023-07-20
-### Changed 
+
+### Changed
 
 - Updated CSS file for home page
 
 ## UI [1.6.0] 2023-07-20
 
-### Changed 
+### Changed
 
 - Updated Landing Page component with Icons
 - Updated CSS file to reflect overal colouring and Icons
+
 ## UI [1.5.3] 2023-07-19
 
-### Added 
+### Added
 
 - Background image to Home Page
 - CSS style file updated
 
 ## UI [1.5.2] 2023-07-19
 
-### Changed 
+### Changed
 
 - CSS Style file for footer
 - Added Icons for social media
@@ -28,18 +40,19 @@
 
 ## UI [1.5.1] 2023-07-18
 
-### Added 
+### Added
 
 - Navbar component to Landing page
-- CSS tag for landing page styling 
+- CSS tag for landing page styling
 - Homepage background image to images
 
 ## UI [1.5.0] 2023-07-18
 
-### Added 
+### Added
 
 - Created Landingpage navbar component
 - CSS File for landing page navbar
+
 ## UI [1.4.0] 2023-07-17
 
 ### Added
