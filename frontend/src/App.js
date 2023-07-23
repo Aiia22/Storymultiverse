@@ -8,12 +8,14 @@ import Community from "../src/pages/Community";
 import SurpriseMe from "../src/pages/SurpriseMe";
 import MyAccount from "../src/pages/MyAccount";
 import Support from "../src/pages/Support";
+import Login from "../src/pages/Login";
 
 export default function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/my-search" element={<MySearch />} />
         <Route path="/my-list" element={<MyList />} />
         <Route path="/community" element={<Community />} />
