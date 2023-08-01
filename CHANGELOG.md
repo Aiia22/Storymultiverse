@@ -1,5 +1,18 @@
 # Changelog
 
+## UI [1.8.0] 2023-08-01
+
+### Changed
+
+- Pages: Community, Contact, MarketPlace, MyAccount, MyList, MySearch, MySearchSubResult, MySelectedResult
+- Components: renamed MoviesBubble to FilmsBubble, footer, gameBubble,TvShowBubble
+
+### Added
+
+- Pages: Register, About us
+- Routes in App.js router
+- Selected item Search logic using temporary a json (to be replace by DB logic)
+
 ## UI [1.7.0] 2023-07-23
 
 ### Changed

@@ -5,13 +5,13 @@ import { useNavigate } from "react-router-dom";
 import "../styles/CSS/searchSubPages.css";
 import movieIcon from "../images/movieIcon.png";
 
-const MoviesBubble = ({ count, res, data }) => {
+const FilmsBubble = ({ count, res, data }) => {
   const router = useNavigate();
 
   const goToDetail = () => {
     if (Object.keys(res).length > 0) {
       router("/my-search-detail", {
-        state: { res: res, data: data, storyType: "Movie" },
+        state: { res: res, data: data, storyType: "Films" },
       });
     }
   };
@@ -27,4 +27,4 @@ const MoviesBubble = ({ count, res, data }) => {
   );
 };
 
-export default MoviesBubble;
+export default FilmsBubble;

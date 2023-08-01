@@ -7,17 +7,13 @@ import Navbar from "../components/NavBar";
 //******* Import style logic *******/
 //Here
 
-export default function SurpriseMe() {
+export default function Register() {
   return (
     <div>
       <Navbar />
       <div className="container">
-        <h1>Surprise me page</h1>
-        <h2>
-          Let our AI Choose choose for you, and Discover Limitless Adaptations!
-        </h2>
-        <SearchBar />
-        <SearchResults />
+        <h1>Register page</h1>
+        <h2>Here is your support plateform, we are here to help you!</h2>
       </div>
       <FooterComponent />
     </div>

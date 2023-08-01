@@ -13,19 +13,24 @@ const backgroundImageStyle = {
   backgroundImage: `url(${SSPIMG})`,
 };
 
-// Implement the search bar functionality
-const MySearchSubResult = ({}) => {
-  const router = useLocation();
-  const { res, storyType, data } = router.state;
-  const route = useNavigate();
+const MySearchSubResult = () => {
+  const location = useLocation();
+  const { res, storyType, data } = location.state;
+  const navigate = useNavigate();
   const storyName = res[0].storyName;
+
   const goToDetail = (id) => {
     if (id) {
-      route(`/my-search-sub-result/${id}`, {
-        state: { res },
+      navigate(`/my-selected-item/${id}`, {
+        state: {
+          storyType: storyType,
+          response: data,
+          selectedData: res.find((data) => data._id === id),
+        },
       });
     }
   };
+  console.log(res);
   const returnName = (param) => {
     if (param.author) {
       const author = data.authors.find(

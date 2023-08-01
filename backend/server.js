@@ -11,7 +11,7 @@ const port = 3000;
 // Import the mongoose module for MongoDB interaction
 const mongoose = require("mongoose");
 // Define the MongoDB connection URI
-const mongoDB_Uri = "mongodb://localhost:27017/database_name"; // Replace with your MongoDB connection URI
+const mongoDB_Uri = "mongodb://localhost:27017/storymultiverse"; // Replace with your MongoDB connection URI
 
 // Connect to the MongoDB database
 mongoose
