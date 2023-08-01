@@ -12,6 +12,10 @@ import SurpriseMe from "../src/pages/SurpriseMe";
 import MyAccount from "../src/pages/MyAccount";
 import Support from "../src/pages/Support";
 import Login from "../src/pages/Login";
+import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
+import MySelectedResult from "./pages/MySelectedResult";
+import Register from "./pages/Register";
 
 export default function App() {
   return (
@@ -27,6 +31,10 @@ export default function App() {
         <Route path="/surprise-me" element={<SurpriseMe />} />
         <Route path="/my-account" element={<MyAccount />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/my-selected-item/:id" element={<MySelectedResult />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );

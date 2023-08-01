@@ -6,6 +6,7 @@ import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 
+//******* Import style logic *******/
 import "../styles/CSS/main.css";
 import "../styles/CSS/searchMainPage.css";
 import SPIMG from "../images/searchMainPage.png";

@@ -11,7 +11,7 @@ const GamesBubble = ({ count, res, data }) => {
   const goToDetail = () => {
     if (Object.keys(res).length > 0) {
       router("/my-search-detail", {
-        state: { res: res, data: data, storyType: "Video Game" },
+        state: { res: res, data: data, storyType: "Games" },
       });
     }
   };

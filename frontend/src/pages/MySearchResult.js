@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 //******* Import component(s) *******/
 import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
-import MoviesBubble from "../components/MoviesBubble";
+import FilmsBubble from "../components/FilmsBubble";
 import BooksBubble from "../components/BooksBubble";
 import TvshowsBubble from "../components/TvShowsBubble";
 import GamesBubble from "../components/GamesBubble";
@@ -49,7 +49,7 @@ export default function MySearchResult() {
                 data={data}
               />
 
-              <MoviesBubble
+              <FilmsBubble
                 count={res.films.length}
                 res={res.films}
                 data={data}
