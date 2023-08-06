@@ -1,5 +1,13 @@
 # Changelog
 
+
+## UI [1.9.0] 2023-08-06
+
+### Added
+- Page: Support Page and somee content
+- CSS: Add css page for the support page and added some styling
+
+
 ## UI [1.8.0] 2023-08-01
 
 ### Changed
