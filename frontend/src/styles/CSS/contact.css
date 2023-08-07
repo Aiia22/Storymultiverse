@@ -1,0 +1,45 @@
+/* Styles for the Contact Us page */
+
+.contact-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.map-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}

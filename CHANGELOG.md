@@ -1,5 +1,10 @@
 # Changelog
 
+## UI [1.10.0] 2023-08-07
+
+### Added
+- Page: Contact us page
+- CSS: Basic styling added
 
 ## UI [1.9.0] 2023-08-06
 
