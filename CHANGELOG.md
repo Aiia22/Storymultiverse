@@ -1,5 +1,11 @@
 # Changelog
 
+## UI [1.10.1] 2023-08-07
+
+### Changed
+- CSS Styling updated for contact us page
+- Contact details added
+- Map added 
 ## UI [1.10.0] 2023-08-07
 
 ### Added
