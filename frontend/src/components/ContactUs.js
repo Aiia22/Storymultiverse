@@ -48,3 +48,6 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+//------- Copyright & references ---------------
+//https://legacy.reactjs.org/docs/create-a-new-react-app.html
