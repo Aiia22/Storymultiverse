@@ -1,5 +1,6 @@
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
 
 const accessTokenSecret = "your-access-token-secret"; // Replace with your actual access token secret
 
@@ -10,13 +11,13 @@ const generateAccessToken = (userId, username, tier, membershipStatus) => {
   );
 };
 
-// Register a new user
+// ===>  Register new user
 const registerUser = async (req, res) => {
   try {
     const newUser = req.body;
     const createdUser = await User.create(newUser);
 
-    // Here can be place the logic of sending a  welcome email after registration
+    // Here ====> logic of sending a  welcome email after registration
 
     res.status(201).json({ message: "Registration successful" });
   } catch (error) {
@@ -24,19 +25,20 @@ const registerUser = async (req, res) => {
   }
 };
 
-// Login user
+// ===> Login user
 const loginUser = async (req, res) => {
   try {
-    const { email, password } = req.body;
-    const user = await User.findOne({ email });
+    const { userEmail, password } = req.body;
+    const user = await User.findOne({ userEmail });
 
-    if (!user || user.password !== password) {
+    // ===> Check if user exist & compare hashed passwords
+    if (!user || !bcrypt.compareSync(password, user.password)) {
       return res.status(401).json({ error: "Invalid credentials" });
     }
-
+    // ===> generate access token
     const accessToken = generateAccessToken(
       user._id,
-      user.username,
+      user.name,
       user.tier,
       user.membershipStatus
     );

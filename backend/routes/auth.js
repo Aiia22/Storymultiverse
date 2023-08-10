@@ -1,81 +1,88 @@
-// import validations
+const jwt = require("jsonwebtoken");
+const router = require("express").Router();
+const bcrypt = require("bcryptjs");
+
+// ********** Import middlewares *********/
 const {
   loginValidation,
   registerValidation,
 } = require("../middlewares/validations");
 
-const jwt = require("jsonwebtoken");
-const router = require("express").Router();
-const { middleware } = require("../middlewares/authMiddleware");
+// ********** Import model *********/
+const User = require("../models/user"); // Import the User model
 
-const accessTokenSecret = "your-access-token-secret"; // fake secret, get new accessToken!
+// ********** Secret *********/
+const accessTokenSecret = "your-access-token-secret"; // fake secret, get a new accessToken!
 
-const generateAccessToken = (userId, username, tier, membershipStatus) => {
-  return jwt.sign(
-    { userId, username, tier, membershipStatus },
-    accessTokenSecret
-  );
+// ===> Generate token
+const generateAccessToken = (userId, name, membershipStatus) => {
+  return jwt.sign({ userId, name, membershipStatus }, accessTokenSecret);
 };
 
-// Registration route
+//**************  Register route *****************/
+
+// ===> POST request : /api/register/
 router.post("/register", async (req, res) => {
   try {
-    // Validate the request body
     const { error } = registerValidation(req.body);
-
     if (error) {
-      // Return a validation error response
       return res.status(400).json({ error: error.details[0].message });
     }
 
-    // Process the registration logic using the User model
-    const { username, email, password } = req.body;
-    // *** Additional validation here ***
-    // Create a new user using the User model
-    const user = await User.create({ username, email, password });
+    const { name, userEmail, password } = req.body;
 
-    // Return a success response or any relevant data
-    res.status(200).json({ message: "User uccessfully registered" });
+    // ==>  Check if user exists already in DB
+    const emailExists = await User.findOne({ userEmail });
+    if (emailExists) {
+      return res.status(400).json({ error: "Email already exists" });
+    }
+
+    // ====>  Hash passwords using bcrypt package
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
+
+    // ===> Create user
+    const user = new User({ name, userEmail, password: hashedPassword });
+    await user.save();
+
+    res.status(200).json({ message: "User successfully registered" });
   } catch (error) {
-    // Handle any errors
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
-// Login route
+//**************  Login route *****************/
+
+// ===> POST request : /api/login/
 router.post("/login", async (req, res) => {
   try {
-    // Validate the request body
     const { error } = loginValidation(req.body);
-
     if (error) {
-      // Return a validation error response
       return res.status(400).json({ error: error.details[0].message });
     }
 
-    // Process the login logic using the User model
-    const { email, password } = req.body;
-    // Additional validation here
-    // Find the user by email
-    const user = await User.findOne({ email });
+    const { userEmail, password } = req.body;
 
-    // Check if the user exists and the password is correct
-    if (!user || !user.comparePassword(password)) {
-      return res.status(401).json({ error: "Invalid email or password" });
+    //====> find user by Email
+    const user = await User.findOne({ userEmail });
+    if (!user) {
+      return res.status(400).json({ error: "Email doesn't exist" });
     }
 
-    // Generate an access token
+    // ===> Handle password comparison using bcrypt
+    const validPass = await bcrypt.compare(password, user.password);
+    if (!validPass) {
+      return res.status(400).json({ error: "Invalid password" });
+    }
+
+    // ===> Create & attribute token
     const accessToken = generateAccessToken(
       user.userId,
-      user.username,
-      user.tier,
+      user.name,
       user.membershipStatus
     );
-
-    // Return the access token or any relevant data
     res.status(200).json({ accessToken });
   } catch (error) {
-    // Handle any errors
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
