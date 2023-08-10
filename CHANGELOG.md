@@ -1,23 +1,44 @@
 # Changelog
 
+## Back [1.10.1] 2023-08-10
+
+### Changed
+
+- Routes : auth ,users
+- Models: user
+- Middlewares: auth , validation
+- Controllers: auth , user
+- Server.js : updated routes
+- README file with all required explaination (will need to add later users logins)
+
+### Added
+
+- Routes : search
+- Models: films, tvShows, books, authers, directors, productionCompagnies, publishingCompanies
+- Controllers: search
+- All the logic for login /register / Reset password
+
 ## UI [1.10.1] 2023-08-07
 
 ### Changed
+
 - CSS Styling updated for contact us page
 - Contact details added
-- Map added 
+- Map added
+
 ## UI [1.10.0] 2023-08-07
 
 ### Added
+
 - Page: Contact us page
 - CSS: Basic styling added
 
 ## UI [1.9.0] 2023-08-06
 
 ### Added
+
 - Page: Support Page and somee content
 - CSS: Add css page for the support page and added some styling
-
 
 ## UI [1.8.0] 2023-08-01
 

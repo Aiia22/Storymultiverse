@@ -1,30 +1,35 @@
-// Importing the express module
 const express = require("express");
 
-// Creating a router object
+// ********* Create router object ******/
 const router = express.Router();
 
-// Importing the authMiddleware module
+// ******** Import middleware *****/
 const { middleware } = require("../middlewares/authMiddleware");
 
-// Importing the userController module
+// ****** Import controller *********/
 const userController = require("../controllers/userController");
 
-// Define routes for users
-// GET request to retrieve all users
+//************ Users routes ****************/
+
+// ===> GET all users: /api/users/
 router.get("/", middleware, userController.getAllUsers);
 
-// GET request to retrieve a user by ID
+// ==> GET user by ID: /api/users/:id
 router.get("/:id", middleware, userController.getUserById);
 
-// POST request to create a new user
-router.post("/", middleware, userController.createUser);
+// ===> POST create user: /api/users/
+router.post("/", userController.createUser);
 
-// PUT request to update a user by ID
+// ===> PUT update user by ID: /api/users/:id
 router.put("/:id", middleware, userController.updateUser);
 
-// DELETE request to delete a user by ID
+// ===> DELETE user by ID: /api/users/:id
 router.delete("/:id", middleware, userController.deleteUser);
 
-// Exporting the router
+// ===> POST Request to request to reset password
+router.post("/requestReset", userController.requestPasswordReset);
+
+// ===> POST Request to reset password using token
+router.post("/resetPassword/:token", userController.resetPassword);
+
 module.exports = router;
