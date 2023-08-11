@@ -1,5 +1,13 @@
 # Changelog
 
+## UI [1.12.1] 2023-08-11
+
+### Added
+
+- About us component
+- Pricing plans
+- CSS Styling for About Us Page
+
 ## UI [1.11.2] 2023-08-11
 
 ### Changed

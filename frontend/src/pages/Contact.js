@@ -15,7 +15,6 @@ export default function Contact() {
       <Navbar />
       <div className="container">
         <h1>Contact page </h1>
-        <h2>Dig into your records and share with others!</h2>
       </div>
       <ContactUs />
       <FooterComponent />
