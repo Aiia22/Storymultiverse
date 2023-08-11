@@ -1,6 +1,10 @@
 # Changelog
 
-## UI [1.12.1] 2023-08-11
+## UI [1.12.2] 2023-08-11
+
+### Added
+- Content to community and myList pages
+- css page created for comingSoon
 
 ### Added
 
