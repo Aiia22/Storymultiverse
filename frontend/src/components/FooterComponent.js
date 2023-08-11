@@ -12,11 +12,6 @@ function FooterComponent() {
         </div>
         <div className="footer-section">
           <h3>
-            <a href="/advertise">Advertise with us</a>
-          </h3>
-        </div>
-        <div className="footer-section">
-          <h3>
             <a href="/support">Help</a>
           </h3>
         </div>
