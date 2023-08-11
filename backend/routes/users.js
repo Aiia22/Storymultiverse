@@ -1,30 +1,28 @@
-// Importing the express module
 const express = require("express");
-
-// Creating a router object
 const router = express.Router();
 
-// Importing the authMiddleware module
-const { middleware } = require("../middlewares/authMiddleware");
+// Import middleware
+const middleware = require("../middlewares/authMiddleware");
 
-// Importing the userController module
+// Import controller
 const userController = require("../controllers/userController");
 
-// Define routes for users
-// GET request to retrieve all users
-router.get("/", middleware, userController.getAllUsers);
+// Register a new user (Sign Up)
+router.post("/register", userController.createUser);
 
-// GET request to retrieve a user by ID
+// Login a user (I'm assuming you'll need this, even though it's not mentioned explicitly)
+router.post("/login", userController.loginUser);
+
+// Get a user's info (protected by middleware)
 router.get("/:id", middleware, userController.getUserById);
 
-// POST request to create a new user
-router.post("/", middleware, userController.createUser);
-
-// PUT request to update a user by ID
+// Update a user's info (protected by middleware)
 router.put("/:id", middleware, userController.updateUser);
 
-// DELETE request to delete a user by ID
-router.delete("/:id", middleware, userController.deleteUser);
+// Request password reset
+router.post("/requestReset", userController.requestPasswordReset);
 
-// Exporting the router
+// Reset password using token
+router.post("/resetPassword/:token", userController.resetPassword);
+
 module.exports = router;

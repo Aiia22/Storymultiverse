@@ -8,7 +8,6 @@ import MySearchResult from "../src/pages/MySearchResult";
 import MySearchSubResult from "../src/pages/MySearchSubResult";
 import MyList from "../src/pages/MyList";
 import Community from "../src/pages/Community";
-import SurpriseMe from "../src/pages/SurpriseMe";
 import MyAccount from "../src/pages/MyAccount";
 import Support from "../src/pages/Support";
 import Login from "../src/pages/Login";
@@ -28,7 +27,6 @@ export default function App() {
         <Route path="/my-search-detail" element={<MySearchSubResult />} />
         <Route path="/my-list" element={<MyList />} />
         <Route path="/community" element={<Community />} />
-        <Route path="/surprise-me" element={<SurpriseMe />} />
         <Route path="/my-account" element={<MyAccount />} />
         <Route path="/support" element={<Support />} />
         <Route path="/contact" element={<Contact />} />

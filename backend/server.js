@@ -1,45 +1,45 @@
-// Importing the express module
+//************* Import necessary modules *********/
 const express = require("express");
-// Importing the cors module for handling cross-origin resource sharing
 const cors = require("cors");
-// Importing the authMiddleware module
-const { middleware } = require("./middlewares/authMiddleware");
-// Creating an instance of the express application
-const app = express();
-// Setting the port number for the server
-const port = 3000;
-// Import the mongoose module for MongoDB interaction
 const mongoose = require("mongoose");
-// Define the MongoDB connection URI
-const mongoDB_Uri = "mongodb://localhost:27017/storymultiverse"; // Replace with your MongoDB connection URI
 
-// Connect to the MongoDB database
+// *************** Create instance of express app ********/
+const app = express();
+
+// ************ Set port number ********/
+const port = 3000;
+
+// ******** MongoDB connection URI ************/
+const mongoDB_Uri =
+  "mongodb+srv://TatianaLeclerc:irJ0wKZw30IF8r9P@storymultiverse.zviyrpg.mongodb.net/StoryMultiVerse?retryWrites=true&w=majority";
+
+//********* Connect to the mongoDB Database **************/
 mongoose
   .connect(mongoDB_Uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("mongoDB sucessfully connected");
+    console.log("mongoDB successfully connected");
   })
   .catch((error) => {
     console.error("MongoDB couldn't be connected, see error log:", error);
   });
 
-// Middleware setup
+//********* Setup middlewares **************/
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON request bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded request bodies
 
-// Importing route modules
-const authRouter = require("./routes/auth");
-const usersRouter = require("./routes/users");
+//********* Import routes **************/
+const usersRoute = require("./routes/users");
+const searchRoute = require("./routes/search");
 
-// Setting up routes
-app.use("/users", middleware, usersRouter); // Mounting the usersRouter with "/users" path
-app.use("/auth", middleware, authRouter); // Mounting the authRouter with "/auth" path
+// ********* Set routes **********/
+app.use("/api/users", usersRoute);
+app.use("/api/search", searchRoute);
 
-// Start the server
+// ***** Start the server ********/
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

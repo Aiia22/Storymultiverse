@@ -12,11 +12,6 @@ function FooterComponent() {
         </div>
         <div className="footer-section">
           <h3>
-            <a href="/advertise">Advertise with us</a>
-          </h3>
-        </div>
-        <div className="footer-section">
-          <h3>
             <a href="/support">Help</a>
           </h3>
         </div>
@@ -26,24 +21,21 @@ function FooterComponent() {
           </h3>
         </div>
         <div className="footer-icons">
-          <h3>
-            Connect&nbsp;&nbsp;
-            <a href="https://www.instagram.com">
-              <i className="fab fa-instagram"></i>
-            </a>
-            &nbsp;
-            <a href="https://www.facebook.com">
-              <i className="fab fa-facebook"></i>
-            </a>
-            &nbsp;
-            <a href="https://www.twitter.com">
-              <i className="fab fa-twitter"></i>
-            </a>
-            &nbsp;
-            <a href="https://www.linkedin.com">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </h3>
+          <a href="https://www.instagram.com">
+            <i className="fab fa-instagram"></i>
+          </a>
+          &nbsp;
+          <a href="https://www.facebook.com">
+            <i className="fab fa-facebook"></i>
+          </a>
+          &nbsp;
+          <a href="https://www.twitter.com">
+            <i className="fab fa-twitter"></i>
+          </a>
+          &nbsp;
+          <a href="https://www.linkedin.com">
+            <i className="fab fa-linkedin"></i>
+          </a>
         </div>
       </div>
       <div className="footer-bottom">

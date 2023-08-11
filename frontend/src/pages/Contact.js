@@ -1,9 +1,9 @@
 import React from "react";
 
 //******* Import component(s) *******/
+import ContactUs from "../components/ContactUs";
 import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
-import ContactUs from "../components/ContactUs"
 import "../styles/CSS/contact.css"; // Import the CSS file for styling
 
 //******* Import style logic *******/

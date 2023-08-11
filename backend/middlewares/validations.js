@@ -1,23 +1,26 @@
-//Call validation library yup
 const yup = require("yup");
 
-//Validatiion rules for user registration
 const registerValidation = yup.object().shape({
-  name: yup.string().required(),
-  email: yup.string().email().required(),
-  password: yup.string().min(6).required(),
+  name: yup.string().required("Name is required."),
+  userEmail: yup
+    .string()
+    .email("Please provide a valid email.")
+    .required("Email is required."),
+  password: yup
+    .string()
+    .required("Password is required.")
+    .min(8, "Password must be at least 8 characters long."),
 });
 
-//Validatiion rules for user login
 const loginValidation = yup.object().shape({
-  email: yup.string().email().required(),
-  password: yup.string().required(),
+  userEmail: yup
+    .string()
+    .email("Please provide a valid email.")
+    .required("Email is required."),
+  password: yup.string().required("Password is required."),
 });
 
-//export validation to use then inside routes
 module.exports = {
   registerValidation,
   loginValidation,
 };
-
-//custumize validations rules if required later on...

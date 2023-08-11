@@ -1,0 +1,1049 @@
+{
+  "directors": [
+    {
+      "_id": "64d40402de484c3c636d80da",
+      "name": "Chris Columbus"
+    },
+    {
+      "_id": "64d4041cde484c3c636d80db ",
+      "name": "Haile Gerima"
+    },
+    {
+      "_id": "64d40429de484c3c636d80dc ",
+      "name": "Don Chaffey"
+    },
+    {
+      "_id": "64d40439de484c3c636d80dd ",
+      "name": "James Foley"
+    },
+    {
+      "_id": "64d40447de484c3c636d80de",
+      "name": "Joseph Ruben"
+    },
+    {
+      "_id": "64d40455de484c3c636d80df",
+      "name": "Brad Bird, Jan Pinkava"
+    },
+    {
+      "_id": "64d40490de484c3c636d80e0",
+      "name": "Sam Raimi"
+    },
+    {
+      "_id": "64d404a0de484c3c636d80e1",
+      "name": "Mark Steven Johnson"
+    },
+    {
+      "_id": "64d404b0de484c3c636d80e2",
+      "name": "Steve Bendelack"
+    },
+    {
+      "_id": "64d404bbde484c3c636d80e3",
+      "name": "Kenneth Branagh"
+    },
+    {
+      "_id": "64d404cade484c3c636d80e4",
+      "name": "Gerard Johnstone"
+    },
+    {
+      "_id": "64d404d2de484c3c636d80e5",
+      "name": "Matt Reeves"
+    },
+    {
+      "_id": "64d404ddde484c3c636d80e6",
+      "name": "Cate Shortland"
+    },
+    {
+      "_id": "64d404e7de484c3c636d80e7",
+      "name": "David Gordon Green"
+    },
+    {
+      "_id": "64d404f2de484c3c636d80e8",
+      "name": "Patty Jenkins"
+    },
+    {
+      "_id": "64d404fdde484c3c636d80e9",
+      "name": "Niki Caro"
+    },
+    {
+      "_id": "64d40508de484c3c636d80ea",
+      "name": "Gabriel Range"
+    },
+    {
+      "_id": "64d40511de484c3c636d80eb",
+      "name": "John Frankenheime"
+    },
+    {
+      "_id": "64d40519de484c3c636d80ec",
+      "name": "Julien Leclercq"
+    },
+    {
+      "_id": "64d40524de484c3c636d80ed",
+      "name": "Andy Devonshire"
+    },
+    {
+      "_id": "64d4052cde484c3c636d80ee",
+      "name": "Gary Goddard"
+    },
+    {
+      "_id": "64d40535de484c3c636d80ef",
+      "name": "Rhys Thomas"
+    },
+    {
+      "_id": "64d4053ede484c3c636d80f0",
+      "name": "Katarzyna Kochany"
+    },
+    {
+      "_id": "64d40547de484c3c636d80f1",
+      "name": "Haruo Sotozaki"
+    },
+    {
+      "_id": "64d40555de484c3c636d80f2",
+      "name": "Yoshihide Ibata"
+    },
+    {
+      "_id": "64d4055cde484c3c636d80f3",
+      "name": "Yuichiro Hayashi"
+    }
+  ],
+
+  "productionCompanies": [
+    {
+      "_id": "64d405bfde484c3c636d80f4",
+      "name": "Warner Bros"
+    },
+    {
+      "_id": "64d405cfde484c3c636d80f5",
+      "name": "Disney"
+    },
+    {
+      "_id": "64d405dade484c3c636d80f6",
+      "name": "Hemdale Film Corporation"
+    },
+    {
+      "_id": "64d405e2de484c3c636d80f7",
+      "name": "20th Century Studios"
+    },
+    {
+      "_id": "64d405e8de484c3c636d80f8",
+      "name": "Pixar"
+    },
+    {
+      "_id": " 64d405f2de484c3c636d80f9",
+      "name": "Sony"
+    },
+    {
+      "_id": "64d405fade484c3c636d80fa ",
+      "name": "Marvel"
+    },
+    {
+      "_id": "64d40602de484c3c636d80fb ",
+      "name": "Gabor Csupo"
+    },
+    {
+      "_id": "64d4060dde484c3c636d80fc ",
+      "name": "Tiger Aspect Productions"
+    },
+    {
+      "_id": "64d40619de484c3c636d80fd ",
+      "name": "Blumhouse Productions"
+    },
+    {
+      "_id": "64d40621de484c3c636d80fe ",
+      "name": "DC Comics"
+    },
+    {
+      "_id": "64d40629de484c3c636d80ff ",
+      "name": "Universal Pictures"
+    },
+    {
+      "_id": "64d40637de484c3c636d8100 ",
+      "name": "Columbia Pictures"
+    },
+    {
+      "_id": "64d40641de484c3c636d8101 ",
+      "name": "Paramount Pictures"
+    },
+    {
+      "_id": "64d4064bde484c3c636d8102 ",
+      "name": "Labyrinthe Films"
+    },
+    {
+      "_id": "64d40655de484c3c636d8103 ",
+      "name": "Love Productions"
+    },
+    {
+      "_id": "64d40662de484c3c636d8104 ",
+      "name": "Netflix"
+    },
+    {
+      "_id": "64d4066cde484c3c636d8105 ",
+      "name": "Wild Canary Animation"
+    },
+    {
+      "_id": "64d40673de484c3c636d8106 ",
+      "name": "ufotable"
+    },
+    {
+      "_id": "64d4067ade484c3c636d8107 ",
+      "name": "MAPPA"
+    },
+    {
+      "_id": "64d40684de484c3c636d8108 ",
+      "name": "TV Tokyo"
+    },
+    {
+      "_id": "64d4068ade484c3c636d8109 ",
+      "name": "Nintendo "
+    },
+    {
+      "_id": "64d40691de484c3c636d810a ",
+      "name": "Activision "
+    },
+    {
+      "_id": "64d4069ade484c3c636d810b ",
+      "name": "Microsoft Game Studios"
+    },
+    {
+      "_id": "64d406a3de484c3c636d810c ",
+      "name": "Electronic Arts"
+    },
+    {
+      "_id": "64d406adde484c3c636d810d ",
+      "name": "Sony Computer Entertainment"
+    }
+  ],
+
+  "films": [
+
+    {
+      "_id": "64d407cede484c3c636d810f",
+      "storyName":"Sleeping with the Enemy",
+      "name": "Sleeping with the Enemy",
+      "genre": " Thriller/Mystery",
+      "releaseDate": "1991-02-08",
+      "description": "Martin and Laura Burney have been married for more than three years, but for her it was three years ...",
+      "filmLenght": 96,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Julia Roberts, Patrick Bergin, Kevin Anderson, Elizabeth Lawrence",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d40896de484c3c636d8110",
+      "storyName":"Dragon",
+      "name": "Birth of the Dragon",
+      "genre": "Adventure",
+      "releaseDate": "2016-09-16",
+      "description": "Young Bruce Lee is trying to make a name for himself while working as a martial arts instructor..",
+      "filmLenght": 115,
+      "directors": "64d4041cde484c3c636d80db ",
+      "cast": "Billy Magnussen, Ron Yuan",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d40901de484c3c636d8111",
+      "storyName":"Ratatouille",
+      "name": "Ratatouille",
+      "genre": "Animation",
+      "releaseDate": "2007-06-29",
+      "description": "Passionate about gastronomy, the French mouse Rémy leaves the countryside and goes to live in the se...",
+      "filmLenght": 111,
+      "directors": "64d40429de484c3c636d80dc ",
+      "cast": null,
+      "productionCompanies": "64d405cfde484c3c636d80f5"
+    },
+    {
+      "_id": "64d409eade484c3c636d8113",
+      "storyName":"Spider-Man",
+      "name": "Spider-Man ",
+      "genre": "Super-hero ",
+      "releaseDate": "2007-05-04",
+      "description": "The Spider-Man costume turns black and Peter Parker himself transforms, becoming very confident and ...",
+      "filmLenght": 156,
+      "directors": " 64d40490de484c3c636d80e0",
+      "cast": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church",
+      "productionCompanies": "64d405f2de484c3c636d80f9"
+    },
+    {
+      "_id": "64d40a21de484c3c636d8114",
+      "storyName":"Spider-Man",
+      "name": "Spider-Man 2",
+      "genre": "Super-hero ",
+      "releaseDate": "2007-05-04",
+      "description": "The Spider-Man costume turns black and Peter Parker himself transforms, becoming very confident and ...",
+      "filmLenght": 156,
+      "directors": " 64d40490de484c3c636d80e0",
+      "cast": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church",
+      "productionCompanies": "64d405f2de484c3c636d80f9"
+    },
+    {
+      "_id": "64d40a36de484c3c636d8115",
+      "storyName":"Spider-Man",
+      "name": "Spider-Man 3",
+      "genre": "Super-hero ",
+      "releaseDate": "2007-05-04",
+      "description": "The Spider-Man costume turns black and Peter Parker himself transforms, becoming very confident and ...",
+      "filmLenght": 156,
+      "directors": " 64d40490de484c3c636d80e0",
+      "cast": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church",
+      "productionCompanies": "64d405f2de484c3c636d80f9"
+    },
+    {
+      "_id": "64d40a47de484c3c636d8116",
+      "storyName":"Spider-Man",
+      "name": "Spider-Man 4",
+      "genre": "Super-hero ",
+      "releaseDate": "2007-05-04",
+      "description": "The Spider-Man costume turns black and Peter Parker himself transforms, becoming very confident and ...",
+      "filmLenght": 156,
+      "directors": " 64d40490de484c3c636d80e0",
+      "cast": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church",
+      "productionCompanies": "64d405f2de484c3c636d80f9"
+    },
+
+    {
+      "_id": "64d40aa8de484c3c636d8117",
+      "storyName":"Ghost",
+      "name": "Ghost Rider",
+      "genre": "Action",
+      "releaseDate": "2007-02-16",
+      "description": "Johnny Blaze is a motorcycle stuntman: one day he sells his soul to the devil and agrees to host a v...",
+      "filmLenght": 114,
+      "directors": "64d404a0de484c3c636d80e1",
+      "cast": "Nicolas Cage, Eva Mendes, Peter Fonda, Raquel Alessi, Wes Bentley, Sam Elliott ",
+      "productionCompanies": "64d405e2de484c3c636d80f7"
+    },
+    {
+      "_id": "64d40aecde484c3c636d8118",
+      "storyName":"Ghost",
+      "name": "Ghost Rider 2",
+      "genre": "Action",
+      "releaseDate": "2007-02-16",
+      "description": "Johnny Blaze is a motorcycle stuntman: one day he sells his soul to the devil and agrees to host a v...",
+      "filmLenght": 114,
+      "directors": "64d404a0de484c3c636d80e1",
+      "cast": "Nicolas Cage, Eva Mendes, Peter Fonda, Raquel Alessi, Wes Bentley, Sam Elliott ",
+      "productionCompanies": "64d405e2de484c3c636d80f7"
+    },
+
+    {
+      "_id": "64d40b90de484c3c636d8119",
+      "storyName":"Bean",
+      "name": "Mr. Bean's Movie",
+      "genre": "Comedy",
+      "releaseDate": "2008-03-24",
+      "description": "Mr. Bean wins the first prize in the parish lottery and finds himself for a week in the South of Fra...",
+      "filmLenght": 90,
+      "directors": "64d40455de484c3c636d80df",
+      "cast": "Rowan Atkinson, Willem Dafoe, Emma de Caunes, Jean Rochefort",
+      "productionCompanies": "64d4060dde484c3c636d80fc "
+    },
+    {
+      "_id": "64d40bbade484c3c636d811a",
+      "storyName":"Bean",
+      "name": "Mr. Bean's Holiday",
+      "genre": "Comedy",
+      "releaseDate": "2008-03-24",
+      "description": "Mr. Bean wins the first prize in the parish lottery and finds himself for a week in the South of Fra...",
+      "filmLenght": 90,
+      "directors": "64d40455de484c3c636d80df",
+      "cast": "Rowan Atkinson, Willem Dafoe, Emma de Caunes, Jean Rochefort",
+      "productionCompanies": "64d4060dde484c3c636d80fc "
+    },
+   
+    {
+      "_id": "64d40c6fde484c3c636d811b",
+      "storyName":"Batman",
+      "name": "The Batman",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Bruce Wayne, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "filmLenght": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d40ca4de484c3c636d811c",
+      "storyName":"Batman",
+      "name": " Batman Returns",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Bruce Wayne, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "filmLenght": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d40cbade484c3c636d811d",
+      "storyName":"Batman",
+      "name": " Batman Forever",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Bruce Wayne, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "filmLenght": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d40cc8de484c3c636d811e",
+      "storyName":"Batman",
+      "name": " Joker ",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Bruce Wayne, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "filmLenght": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d40d6ade484c3c636d811f",
+      "storyName":"Halloween",
+      "name": "Halloween",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64d404e7de484c3c636d80e7",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64d40629de484c3c636d80ff "
+    },
+    {
+      "_id": "64d40d94de484c3c636d8120",
+      "storyName":"Halloween",
+      "name": "Halloween II ",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64d404e7de484c3c636d80e7",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64d40629de484c3c636d80ff "
+    },
+    {
+      "_id": "64d40da7de484c3c636d8121",
+      "storyName":"Halloween",
+      "name": "Halloween III ",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64d404e7de484c3c636d80e7",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64d40629de484c3c636d80ff "
+    },
+    {
+      "_id": "64d40db3de484c3c636d8122",
+      "storyName":"Halloween",
+      "name": "Halloween IV ",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64d404e7de484c3c636d80e7",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64d40629de484c3c636d80ff "
+    },
+    {
+      "_id": "64d40dbfde484c3c636d8123",
+      "storyName":"Halloween",
+      "name": "Halloween Kills ",
+      "genre": "Horror",
+      "releaseDate": "2021-10-15",
+      "description": "The Halloween night that marked the return of Michael Myers is not over yet. Minutes after Laurie St...",
+      "filmLenght": 105,
+      "directors": "64d404e7de484c3c636d80e7",
+      "cast": "Jamie Lee Curtis, Judy Greer, Andi Matichak, Will Patton",
+      "productionCompanies": " 64d40629de484c3c636d80ff "
+    },
+
+    {
+      "_id": "64d40fb4de484c3c636d8124",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4102ede484c3c636d8125",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4103cde484c3c636d8126",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4104fde484c3c636d8127",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Goblet of Fire",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4105dde484c3c636d8128",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Order of Phoenix",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4106bde484c3c636d8129",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Half-Blood Prince",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d4107bde484c3c636d812a",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Deathly Hallows part 1",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "filmLenght": 152,
+      "directors": "64d40402de484c3c636d80da",
+      "cast": "Daniel Radcliffe,Rupert Grint,Emma Watson",
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d41090de484c3c636d812b",
+      "storyName": "Lord of Rings",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "filmLenght": 300,
+      "directors": "64d40508de484c3c636d80ea",
+      "cast": "Elijah Woods, Viggo Mortensen, Sean Astin",
+      "productionCompanies": "64d40637de484c3c636d8100 "
+    },
+    {
+      "_id": "64d41170de484c3c636d812c",
+      "storyName": "Lord of Rings",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "filmLenght": 300,
+      "directors": "64d40508de484c3c636d80ea",
+      "cast": "Elijah Woods, Viggo Mortensen, Sean Astin",
+      "productionCompanies": "64d40637de484c3c636d8100 "
+    },
+    {
+      "_id": "64d4119dde484c3c636d812d",
+      "storyName": "Lord of Rings",
+      "name": "The Lord of the Rings: The Two Towers",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "filmLenght": 300,
+      "directors": "64d40508de484c3c636d80ea",
+      "cast": "Elijah Woods, Viggo Mortensen, Sean Astin",
+      "productionCompanies": "64d40637de484c3c636d8100 "
+    },
+    {
+      "_id": "64d411abde484c3c636d812e",
+      "storyName": "Lord of Rings",
+      "name": "The Lord of the Rings: The Return of the King",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-04",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "filmLenght": 300,
+      "directors": "64d40508de484c3c636d80ea",
+      "cast": "Elijah Woods, Viggo Mortensen, Sean Astin",
+      "productionCompanies": "64d40637de484c3c636d8100 "
+    }
+    
+  ],
+
+  "tvShows": [
+    {
+      "_id": "64d41220de484c3c636d812f",
+      "storyName": "Lord of Rings",
+      "name": "Lord of The Rings Internals",
+      "genre": "Fantasy",
+      "releaseDate": "2023-08-17",
+      "description": "The before the story of Frodo and Bilbo Began",
+      "showLength": 45,
+      "directors": "64d40508de484c3c636d80ea",
+      "cast": "TBC",
+      "productionCompanies": "64d40637de484c3c636d8100 "
+    },
+    {
+      "_id": "64d4130fde484c3c636d8132",
+      "storyName": "Baking",
+      "name": "The Great British Baking Show",
+      "genre": "Baking",
+      "releaseDate": "2010-08-17",
+      "description": "A talented batch of amateur bakers face off in a 10-week competition, whipping up their best dishes ... ",
+      "showLength": 60,
+      "directors": "64d4052cde484c3c636d80ee ",
+      "cast": "Mel Giedroyc, Sue Perkins, Mary Berry, Paul Hollywood",
+      "productionCompanies": "64d40655de484c3c636d8103  "
+    },
+    {
+      "_id": "64d412bdde484c3c636d8130",
+      "storyName":"Batman",
+      "name": "Robin",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Robin, guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "showLength": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "tbc",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d412f3de484c3c636d8131",
+      "storyName":"Batman",
+      "name": "Dare Devil",
+      "genre": "Super-hero ",
+      "releaseDate": "2022-04-04",
+      "description": "Dare Devil guarding the city under the appearance of Batman, for two years has sowed terror among ...",
+      "showLength": 175,
+      "directors": "64d404d2de484c3c636d80e5",
+      "cast": "Robert Pattinson, Zoë Kravitz, Colin Farrell, Andy Serkis",
+      "productionCompanies": "64d40621de484c3c636d80fe "
+    },
+    {
+      "_id": "64d41375de484c3c636d8133",
+      "storyName": "Baking",
+      "name": "Nailed It",
+      "genre": "Baking",
+      "releaseDate": "2010-08-17",
+      "description": "A talented batch of amateur bakers face off in a 10-week competition, whipping up their best dishes ... ",
+      "showLength": 60,
+      "directors": "64d4052cde484c3c636d80ee ",
+      "cast": "Mel Giedroyc, Sue Perkins, Mary Berry, Paul Hollywood",
+      "productionCompanies": "64d40655de484c3c636d8103  "
+    },
+    {
+      "_id": "64d413fbde484c3c636d8134",
+      "storyName": "Demon",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Arc ",
+      "genre": "Action",
+      "releaseDate": "2019-04-06",
+      "description": "Tanjiro and his friends accompany the Hashira Tengen Uzui to an entertainment district where Tengen... ",
+      "showLength": 25,
+      "directors": "64d4053ede484c3c636d80f0",
+      "cast": "Yoshitsugu Matsuoka,Akari Kitou, Natsuki Hana",
+      "productionCompanies": "64d40673de484c3c636d8106 "
+    },
+
+    {
+      "_id": "64d4143ade484c3c636d8135",
+      "storyName": "Jujutsu",
+      "name": "Jujutsu Kaisen",
+      "genre": "Supernatural ",
+      "releaseDate": "2020-10-03",
+      "description": "Although Yuji Itadori looks like your average teenager, his immense physical strength is something ... ",
+      "showLength": 25,
+      "directors": "64d40555de484c3c636d80f2",
+      "cast": "Yuuma Uchida, Nobara Kugisaki",
+      "productionCompanies": "64d4067ade484c3c636d8107 "
+    },
+    {
+      "_id": "64d41493de484c3c636d8137",
+      "storyName": "Titan",
+      "name": "Attack on Titan",
+      "genre": "Action",
+      "releaseDate": "2021-05-04",
+      "description": "Continuation of Attacks on Titan The Final Season. ",
+      "showLength": 35,
+      "directors": "64bc3bd56542011ffa17e417",
+      "cast": "Marina Inoue, Mikasa Ackerman",
+      "productionCompanies": "64d4055cde484c3c636d80f3 "
+    },
+    {
+      "_id": "64d414ddde484c3c636d8138",
+      "storyName": "Black",
+      "name": "Black Clover",
+      "genre": "Supernatural ",
+      "releaseDate": "2023-06-16",
+      "description": "The story follows Asta, a young boy born without any magic power who is given a rare grimoire that grants him anti-magic abilities",
+      "showLength": 25,
+      "directors": "64d40547de484c3c636d80f1",
+      "cast": null,
+      "productionCompanies": "64d40684de484c3c636d8108 "
+    }
+
+  ],
+  "authors": [
+    {
+      "_id": "64d415401a3ccf7f3aa36088 ",
+      "name": "Charles Dickens "
+    },
+    {
+      "_id": "64d415521a3ccf7f3aa36089 ",
+      "name": "J. K. Rowling "
+    },
+    {
+      "_id": "64d415601a3ccf7f3aa3608a ",
+      "name": "J.R.R.Tolkien "
+    },
+    {
+      "_id": "64d415a51a3ccf7f3aa3608d",
+      "name": "John Broome"
+    },
+    {
+      "_id": "64d415e11a3ccf7f3aa3608e ",
+      "name": "Eiichiro Oda "
+    },
+    {
+      "_id": "64d415ef1a3ccf7f3aa3608f ",
+      "name": "Akira Toriyama "
+    },
+    {
+      "_id": "64d415fa1a3ccf7f3aa36090 ",
+      "name": "E.J.W Barber "
+    },
+    {
+      "_id": "64d416031a3ccf7f3aa36091 ",
+      "name": "Niccolo Machiavelli"
+    },
+    {
+      "_id": "64d4160d1a3ccf7f3aa36092 ",
+      "name": "Michael Crichton"
+    }
+  ],
+
+  "publishingCompanies": [
+    {
+      "_id": " 64d4161c1a3ccf7f3aa36093",
+      "name": "Simon & Schuster "
+    },
+    {
+      "_id": "64d416271a3ccf7f3aa36094 ",
+      "name": "Scholastic Corporation "
+    },
+    {
+      "_id": "64d4163d1a3ccf7f3aa36095 ",
+      "name": "Houghton Mifflin Harcourt"
+    },
+    {
+      "_id": "64d416451a3ccf7f3aa36096 ",
+      "name": "Shueisha "
+    },
+    {
+      "_id": "64d4164e1a3ccf7f3aa36097 ",
+      "name": "W W Norton & Co Inc "
+    },
+    {
+      "_id": "64d416571a3ccf7f3aa36098 ",
+      "name": "Signet Book "
+    },
+    {
+      "_id": "64d416611a3ccf7f3aa36099 ",
+      "name": "Ballantine Books "
+    }
+  ],
+  "books": [
+    {
+      "_id": "64d417031a3ccf7f3aa3609a",
+      "storyName": "Lord of Rings",
+      "name": "The Hobbit ",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64d415601a3ccf7f3aa3608a ",
+      "publishingCompanies": "64d4161c1a3ccf7f3aa36093 "
+    },
+    {
+      "_id": "64d4174c1a3ccf7f3aa3609b",
+      "storyName": "Lord of Rings",
+      "name": "The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64d415601a3ccf7f3aa3608a ",
+      "publishingCompanies": "64d4161c1a3ccf7f3aa36093 "
+    },
+    {
+      "_id": "64d417901a3ccf7f3aa3609c",
+      "storyName": "Lord of Rings",
+      "name": "Two Towers",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64d415601a3ccf7f3aa3608a ",
+      "publishingCompanies": "64d4161c1a3ccf7f3aa36093 "
+    },
+    {
+      "_id": "64d417a71a3ccf7f3aa3609d",
+      "storyName": "Lord of Rings",
+      "name": "Return of the King",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64d415601a3ccf7f3aa3608a ",
+      "publishingCompanies": "64d4161c1a3ccf7f3aa36093 "
+    },
+    {
+      "_id": "64d417bb1a3ccf7f3aa3609e",
+      "storyName": "Lord of Rings",
+      "name": "The History of Middle-earth series.",
+      "genre": "Fantasy",
+      "bookPublishedDate": "1937-09-21",
+      "description": " The Hobbit is bravery, and the transformation of Bilbo Baggins from a timid homebody living quietly in his hobbit ..",
+      "readingLenght": 320,
+      "bookSeries": true,
+      "author": "64d415601a3ccf7f3aa3608a ",
+      "publishingCompanies": "64d4161c1a3ccf7f3aa36093 "
+    },
+    {
+      "_id": "64d418231a3ccf7f3aa3609f",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d419591a3ccf7f3aa360a0",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d4196c1a3ccf7f3aa360a1",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Goblet of Fire",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d419791a3ccf7f3aa360a2",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Order of Phoenix",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d4198a1a3ccf7f3aa360a3",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Half-Blood Prince",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d419991a3ccf7f3aa360a4",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Deathly Hallows",
+      "genre": "Fantasy",
+      "bookPublishedDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "readingLenght": 223,
+      "bookSeries": true,
+      "author": "64d415521a3ccf7f3aa36089 ",
+      "publishingCompanies": "64d4163d1a3ccf7f3aa36095 "
+    },
+    {
+      "_id": "64d419a41a3ccf7f3aa360a5",
+      "storyName": "Demon",
+      "name": "Demon Slayer: Kimetsu no Yaiba - Entertainment District Ar",
+      "genre": "Action",
+      "bookPublishedDate": "2004-06-01",
+      "description": " Tanjiro and his friends accompany the Hashira Tengen Uzui to an entertainment district where Tengen... .",
+      "readingLenght": 30,
+      "bookSeries": false,
+      "author": "64d415ef1a3ccf7f3aa3608f ",
+      "publishingCompanies": "64d416611a3ccf7f3aa36099  "
+    }
+
+],
+
+  "games": [
+    {
+      "_id": "64d41d011a3ccf7f3aa360a8",
+      "storyName": "Lord of Rings",
+      "name": "The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "releaseDate": "2006-11-19",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "gameLenght": 850,
+      "gameSeries": true,
+      "gameCharacters": null,
+      "productionCompanies": "64d405e2de484c3c636d80f7"
+    },
+    {
+      "_id": "64d41d6c1a3ccf7f3aa360a9",
+      "storyName": "Lord of Rings",
+      "name": "Two Towers",
+      "genre": "Fantasy",
+      "releaseDate": "2006-11-19",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "gameLenght": 850,
+      "gameSeries": true,
+      "gameCharacters": null,
+      "productionCompanies": "64d405e2de484c3c636d80f7"
+    },
+    {
+      "_id": "64d41d861a3ccf7f3aa360aa",
+      "storyName": "Lord of Rings",
+      "name": "Return of the King",
+      "genre": "Fantasy",
+      "releaseDate": "2006-11-19",
+      "description": "The Lord of the Rings is the saga of a group of sometimes reluctant he…",
+      "gameLenght": 850,
+      "gameSeries": true,
+      "gameCharacters": null,
+      "productionCompanies": "64d405e2de484c3c636d80f7"
+    },
+    {
+      "_id": "64d41c331a3ccf7f3aa360a6",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Philosopher's Stone",
+      "genre": "Fantasy",
+      "releaseDate": "2001-11-16",
+      "description": " Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "gameLenght": 850,
+      "gameSeries": true,
+      "gameCharacters": null,
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d41cc41a3ccf7f3aa360a7",
+      "storyName": "Harry Potter",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "genre": "Fantasy",
+      "releaseDate": "2002-11-04",
+      "description": "Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hog...",
+      "gameLenght": 850,
+      "gameSeries": true,
+      "gameCharacters": null,
+      "productionCompanies": "64d405bfde484c3c636d80f4"
+    },
+    {
+      "_id": "64d41dea1a3ccf7f3aa360ab",
+      "storyName": "God of War",
+      "name": "God of War",
+      "genre": "Action",
+      "releaseDate": "2002-11-04",
+      "description": "Greek mythology and set in ancient Greece, with vengeance ..",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "Ares,Kratos, the Oracle of Athens",
+      "productionCompanies": "64d40691de484c3c636d810a"
+    },
+    {
+      "_id": "64d41e431a3ccf7f3aa360ac",
+      "storyName": "God of War",
+      "name": "God of War 2",
+      "genre": "Action",
+      "releaseDate": "2002-11-04",
+      "description": "Greek mythology and set in ancient Greece, with vengeance ..",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "Ares,Kratos, the Oracle of Athens",
+      "productionCompanies": "64d40691de484c3c636d810a"
+    },
+    {
+      "_id": "64d41e551a3ccf7f3aa360ad",
+      "storyName": "God of War",
+      "name": "God of War 3",
+      "genre": "Action",
+      "releaseDate": "2002-11-04",
+      "description": "Greek mythology and set in ancient Greece, with vengeance ..",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "Ares,Kratos, the Oracle of Athens",
+      "productionCompanies": "64d40691de484c3c636d810a"
+    },
+    {
+      "_id": "64d41eae1a3ccf7f3aa360ae",
+      "storyName": "Halloween",
+      "name": "Halloween",
+      "genre": "Horror",
+      "releaseDate": "2002-11-04",
+      "description": "The Halloween night that marked the return of Michael Myers is not ove",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "null",
+      "productionCompanies": "64d406a3de484c3c636d810c"
+    },
+    {
+      "_id": "64d41ed01a3ccf7f3aa360af",
+      "storyName": "Halloween",
+      "name": "Halloween 2",
+      "genre": "Horror",
+      "releaseDate": "2002-11-04",
+      "description": "The Halloween night that marked the return of Michael Myers is not ove",
+      "gameLenght": 720,
+      "gameSeries": true,
+      "gameCharacters": "null",
+      "productionCompanies": "64d406a3de484c3c636d810c"
+    }
+
+  ]
+}
