@@ -1,5 +1,21 @@
 # Changelog
 
+## Back [1.4.0] 2023-08-11
+
+### Changed
+
+_Restructured backend to simplify the logic_
+
+- routes: modified users, removed auth
+- controllers: removed auth and update user, modified search to match new model
+- models: removed all data related model , update model for user and story data
+- middlewares: auth, validations
+- server.js
+
+### Added
+
+- models : storyData
+
 ## UI [1.11.0] 2023-08-11
 
 ### Changed
@@ -12,7 +28,7 @@
 
 - components : userRgister
 
-## Back [1.10.1] 2023-08-10
+## Back [1.3.0] 2023-08-10
 
 ### Changed
 

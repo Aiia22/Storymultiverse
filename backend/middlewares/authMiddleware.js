@@ -1,11 +1,10 @@
 const jwt = require("jsonwebtoken");
-const accessTokenSecret = "storymultiverserules";
 
-// ********** Authenticate using JWT ****************/
+const accessTokenSecret = "storymultiverse-access-token-secret";
+
 const authJWT = (req, res, next) => {
   const authHeader = req.headers.authorization;
 
-  // ===> Check if Authorization header exist
   if (authHeader) {
     const token = authHeader.split(" ")[1];
     try {
@@ -20,4 +19,4 @@ const authJWT = (req, res, next) => {
   }
 };
 
-exports.middleware = authJWT;
+module.exports = authJWT;

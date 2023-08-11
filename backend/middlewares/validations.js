@@ -1,7 +1,5 @@
-// ******** Import validation library *********$
 const yup = require("yup");
 
-// ===>  Valid schema for registration
 const registerValidation = yup.object().shape({
   name: yup.string().required("Name is required."),
   userEmail: yup
@@ -11,14 +9,9 @@ const registerValidation = yup.object().shape({
   password: yup
     .string()
     .required("Password is required.")
-    .min(6, "Password must be at least 6 characters long.")
-    .matches(
-      /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])/,
-      "Password must contain at least one uppercase letter, one lowercase letter, and one number."
-    ),
+    .min(8, "Password must be at least 8 characters long."),
 });
 
-// ===> Valid schema for login
 const loginValidation = yup.object().shape({
   userEmail: yup
     .string()

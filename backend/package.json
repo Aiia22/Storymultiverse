@@ -1,6 +1,6 @@
 {
   "name": "storymultiverse-backend",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Backend of the Storymultiverse project",
   "main": "index.js",
   "scripts": {
