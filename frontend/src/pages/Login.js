@@ -11,7 +11,7 @@ import "../styles/CSS/main.css";
 export default function Login() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="container">
         <h1>Unlock the Multiverse</h1>
         <h2>sign-in or sign-up & embark on the Storymultiverse adventure!</h2>

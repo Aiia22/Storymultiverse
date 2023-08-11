@@ -3,7 +3,7 @@ import React from "react";
 //******* Import component(s) *******/
 import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
-import ContactUs from "../components/ContactUs"
+import ContactUs from "../components/ContactUs";
 import "../styles/CSS/contact.css"; // Import the CSS file for styling
 
 //******* Import style logic *******/
@@ -15,7 +15,7 @@ export default function Contact() {
       <Navbar />
       <div className="container">
         <h1>Contact page </h1>
-        <h2>Dig into you records and share with others!</h2>
+        <h2>Feel free to contact us if you have any inquiries</h2>
       </div>
       <ContactUs />
       <FooterComponent />
