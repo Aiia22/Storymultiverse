@@ -1,0 +1,51 @@
+/* Styles for the About Us page */
+
+.about-us {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+    border: 1px solid #ccc; /* Border around the about us div */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px auto; /* Center the about us div on the page */
+    max-width: 800px; /* Limit the maximum width of the about us div */
+}
+
+.about-us h1 {
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Styling for the Pricing Plans section */
+
+.pricing-plans {
+    text-align: center;
+    padding-top: 40px; /* Add spacing from the previous content */
+}
+
+.pricing-plans h2 {
+    margin-bottom: 20px;
+}
+
+.plan {
+    width: calc(300px); /* Each plan takes up one-third of the container */
+    padding: 20px;
+    margin: 0 auto 20px; /* Center plans vertically and add bottom margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left; /* Align plan contents to the left */
+}
+
+.plan h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.plan p {
+    margin-bottom: 10px;
+    color: #666;
+}
