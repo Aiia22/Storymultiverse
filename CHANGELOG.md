@@ -1,5 +1,13 @@
 # Changelog
 
+## UI [1.11.2] 2023-08-11
+
+### Changed
+
+- clean up footer, contact register , login
+- link login icon to login page
+- removed uderline deco on title (css) as it was applicable to entire app
+
 ## UI [1.11.1] 2023-08-11
 
 ### Changed

@@ -52,8 +52,6 @@ const UserRegister = () => {
   //Return register account form
   return (
     <div className="login-container">
-      <h3>Create an account in a single step !</h3>
-
       <form onSubmit={handleFormSubmit}>
         <div className="form-group">
           <label htmlFor="name">Full name* : </label>
