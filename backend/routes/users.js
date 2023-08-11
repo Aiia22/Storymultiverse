@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 // Import middleware
-const { middleware } = require("../middlewares/authMiddleware");
+const middleware = require("../middlewares/authMiddleware");
 
 // Import controller
 const userController = require("../controllers/userController");

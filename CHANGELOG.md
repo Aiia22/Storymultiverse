@@ -1,6 +1,18 @@
 # Changelog
 
-## Back [1.4.0] 2023-08-11
+## UI [1.11.1] 2023-08-11
+
+### Changed
+
+- pages: removed surprised me
+- removed services folder as it is not required anymore
+- Removed unsused marketplace pages
+
+## Back [1.4.1] 2023-08-11
+
+### Fixed
+
+- Fix error : middleware import on users routes
 
 ### Changed
 
