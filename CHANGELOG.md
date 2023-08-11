@@ -1,5 +1,17 @@
 # Changelog
 
+## UI [1.11.0] 2023-08-11
+
+### Changed
+
+- pages: login , register
+- components: userLogin
+- Removed unsused marketplace pages
+
+### Added
+
+- components : userRgister
+
 ## Back [1.10.1] 2023-08-10
 
 ### Changed
@@ -10,21 +22,6 @@
 - Controllers: auth , user
 - Server.js : updated routes
 - README file with all required explaination (will need to add later users logins)
-
-### Added
-
-- Routes : search
-- Models: films, tvShows, books, authers, directors, productionCompagnies, publishingCompanies
-- Controllers: search
-- All the logic for login /register / Reset password
-
-## UI [1.10.1] 2023-08-07
-
-### Changed
-
-- CSS Styling updated for contact us page
-- Contact details added
-- Map added
 
 ## UI [1.10.0] 2023-08-07
 
