@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 // Connecting components to the pages
 import FooterComponent from "../components/FooterComponent";
@@ -34,20 +35,21 @@ export default function MySearch() {
   const [data, setData] = useState([]);
   const [filteredResult, setFilteredResult] = useState([]);
 
-  /*    useEffect(() => {
+  useEffect(() => {
     const getData = async () => {
       try {
-        const res = await axios.get("apiurl/api/data"); // API endpoint
+        const res = await axios.get("http://localhost:3000/api/search"); // API endpoint
+        console.log(res.data);
         setData(res.data);
       } catch (error) {
         console.error(error);
       }
     };
     getData();
-  }, []); */
-  useEffect(() => {
-    setData(apiData);
   }, []);
+  /* useEffect(() => {
+    setData(apiData);
+  }, []); */
 
   const handleSearchRequest = (event) => {
     event.preventDefault();

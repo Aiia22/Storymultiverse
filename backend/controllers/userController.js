@@ -1,21 +1,19 @@
 const User = require("../models/user");
-
-// ******* Import bcrypt *******/
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
-const saltRounds = 10; // ===> use for hashing.
+const saltRounds = 10;
+const accessTokenSecret = "storymultiverse-access-token-secret";
 
-// ==> Get all users
-const getAllUsers = async (req, res) => {
-  try {
-    const users = await User.find();
-    res.json(users);
-  } catch (error) {
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+// Helper function to generate an access token
+const generateAccessToken = (userId, username, tier, membershipStatus) => {
+  return jwt.sign(
+    { userId, username, tier, membershipStatus },
+    accessTokenSecret
+  );
 };
 
-// ===> Get user by ID
+// Get user by ID
 const getUserById = async (req, res) => {
   try {
     const userId = req.params.id;
@@ -31,23 +29,63 @@ const getUserById = async (req, res) => {
   }
 };
 
-// ==> Create new user
+// Create new user (Register)
 const createUser = async (req, res) => {
   try {
-    const newUser = req.body;
+    const { userEmail, password } = req.body;
 
-    // ===> Hash  password
-    const hashedPassword = await bcrypt.hash(newUser.password, saltRounds);
-    newUser.password = hashedPassword;
+    if (password.length < 8) {
+      return res
+        .status(400)
+        .json({ error: "Password should be at least 8 characters long" });
+    }
 
-    const createdUser = await User.create(newUser);
-    res.status(201).json(createdUser);
+    const existingUser = await User.findOne({ userEmail });
+    if (existingUser) {
+      return res.status(400).json({ error: "Email already registered" });
+    }
+
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+
+    const newUser = await User.create({
+      ...req.body,
+      password: hashedPassword,
+    });
+
+    res.status(201).json({ message: "Registration successful", user: newUser });
   } catch (error) {
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-// ===> Update user
+// User Login
+const loginUser = async (req, res) => {
+  try {
+    const { userEmail, password } = req.body;
+
+    const user = await User.findOne({ userEmail });
+    if (!user) {
+      return res.status(401).json({ error: "Invalid credentials" });
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(401).json({ error: "Invalid credentials" });
+    }
+
+    const accessToken = generateAccessToken(
+      user._id,
+      user.name,
+      user.tier,
+      user.membershipStatus
+    );
+    res.json({ accessToken });
+  } catch (error) {
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+// Update user
 const updateUser = async (req, res) => {
   try {
     const userId = req.params.id;
@@ -65,7 +103,7 @@ const updateUser = async (req, res) => {
   }
 };
 
-// ==> Delete user
+// Delete user
 const deleteUser = async (req, res) => {
   try {
     const userId = req.params.id;
@@ -81,78 +119,20 @@ const deleteUser = async (req, res) => {
   }
 };
 
-// ===> User requests for  password reset
 const requestPasswordReset = async (req, res) => {
-  try {
-    const user = await User.findOne({ userEmail: req.body.email });
-    if (!user) {
-      return res.status(404).json({ error: "No user found with that email" });
-    }
-
-    // ===> Generate token & set expiry
-    const resetToken = crypto.randomBytes(20).toString("hex");
-    user.resetPasswordToken = resetToken;
-    user.resetPasswordExpires = Date.now() + 3600000; // ===> will expiry in 1 hour
-
-    await user.save();
-
-    // ====> Send email with with token
-    const transporter = nodemailer.createTransport({
-      service: "Gmail",
-      auth: {
-        user: "YOUR_EMAIL_ADDRESS",
-        pass: "YOUR_EMAIL_PASSWORD",
-      },
-    });
-
-    const mailOptions = {
-      to: user.userEmail,
-      from: "passwordreset@example.com",
-      subject: "Password Reset",
-      text: `Hi ther , You are receiving this email because you have requested the reset of the password for your account.\n\nPlease click on the following link to complete the process:\n\nhttp://${req.headers.host}/resetPassword/${resetToken}\n\nIf you did not request this, please signal it as soon as possible to our support team.\n`,
-    };
-
-    transporter.sendMail(mailOptions, (err) => {
-      if (err) {
-        return res.status(500).json({ error: "Email could not be sent." });
-      }
-      res.status(200).json({ message: "Password reset email sent." });
-    });
-  } catch (error) {
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+  // TODO: Implement the request password reset logic here
+  res.status(501).json({ message: "Not implemented yet" });
 };
 
-// ===> User resets password using token
 const resetPassword = async (req, res) => {
-  try {
-    const user = await User.findOne({
-      resetPasswordToken: req.params.token,
-      resetPasswordExpires: { $gt: Date.now() },
-    });
-
-    if (!user) {
-      return res
-        .status(400)
-        .json({ error: "Reset token is invalid or has expired." });
-    }
-
-    user.password = req.body.password;
-    user.resetPasswordToken = undefined;
-    user.resetPasswordExpires = undefined;
-
-    await user.save();
-
-    res.status(200).json({ message: "Password successfully reset." });
-  } catch (error) {
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+  // TODO: Implement the reset password logic here using the provided token
+  res.status(501).json({ message: "Not implemented yet" });
 };
 
 module.exports = {
-  getAllUsers,
   getUserById,
   createUser,
+  loginUser, // Added loginUser function
   updateUser,
   deleteUser,
   requestPasswordReset,
