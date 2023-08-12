@@ -2,9 +2,14 @@
 
 # Brief overview of Storymultiverse App and utils
 
-The StoryMultiverse App offers an intuitive and seamless experience for exploring a universe of interconnected content.
+The StoryMultiverse App offers an intuitive and seamless experience for exploring a universe of interconnected content. This App unfortunately could not be connected to the DB although all the logic is there comment out. It is using json . We did try to even inject the data onto the DB manually using a script importData.js but nothing works.
 
-// ==> To get started, follow these steps:
+# user registered to test login feature
+
+- email: gladysmorse@exozent.com
+- password:rOp@9aVI
+
+# Features of the APP
 
 ## StoryMultiverse Search
 
@@ -31,8 +36,9 @@ The StoryMultiverse App offers an intuitive and seamless experience for explorin
 ## Login/Register/Reset password
 
 - User can login directly via home page or by clicking on the login icon on the navBar
-- New users can register as there are been given the choice to either login or register
-- User can reset password if needed as the option is given in the login system
+- New users can register as there are given the choice to either login or register
+- User cannot reset password yet as we encounter DB connection issue and we only mocking the data for now. But the logic is there commented.
+- User that are not logged in cannot access the community and my list pages.
 
 # Structure of the project:
 

@@ -30,27 +30,28 @@ const MySearchSubResult = () => {
       });
     }
   };
-  console.log(res);
+
   const returnName = (param) => {
+    const objData = data[0];
     if (param.author) {
-      const author = data.authors.find(
+      const author = objData.authors.find(
         (e) => e._id.trim() === param.author.trim()
       );
       return author ? author.name : param.author;
     } else if (param.directors) {
-      const directors = data.directors.find(
+      const directors = objData.directors.find(
         (e) => e._id.trim() === param.directors.trim()
       );
       return directors ? directors.name : param.directors;
     } else if (param.productionCompanies) {
-      const productionCompanies = data.productionCompanies.find(
+      const productionCompanies = objData.productionCompanies.find(
         (e) => e._id.trim() === param.productionCompanies.trim()
       );
       return productionCompanies
         ? productionCompanies.name
         : param.productionCompanies;
     } else if (param.publishingCompanies) {
-      const publishingCompanies = data.publishingCompanies.find(
+      const publishingCompanies = objData.publishingCompanies.find(
         (e) => e._id.trim() === param.publishingCompanies.trim()
       );
       return publishingCompanies

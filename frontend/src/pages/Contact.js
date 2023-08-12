@@ -4,10 +4,9 @@ import React from "react";
 import ContactUs from "../components/ContactUs";
 import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
-import "../styles/CSS/contact.css"; // Import the CSS file for styling
 
 //******* Import style logic *******/
-//Here
+import "../styles/CSS/contact.css";
 
 export default function Contact() {
   return (

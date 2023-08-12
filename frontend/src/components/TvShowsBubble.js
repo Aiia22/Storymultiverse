@@ -9,7 +9,7 @@ const TvShowsBubble = ({ count, res, data }) => {
   const router = useNavigate();
 
   const goToDetail = () => {
-    if (Object.keys(res).length > 0) {
+    if (res.length > 0) {
       router("/my-search-detail", {
         state: { res: res, data: data, storyType: "TV Shows" },
       });

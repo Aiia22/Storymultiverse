@@ -5,15 +5,14 @@ import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
 
 //******* Import style logic *******/
-import "../styles/CSS/aboutUs.css"; // Import the CSS file for styling
+import "../styles/CSS/aboutUs.css";
 
 export default function AboutUs() {
   return (
     <div>
       <Navbar />
       <AboutUsComponent />
-      <div className="container">
-      </div>
+      <div className="container"></div>
       <FooterComponent />
     </div>
   );

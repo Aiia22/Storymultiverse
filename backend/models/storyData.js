@@ -85,4 +85,4 @@ const storyDataSchema = new mongoose.Schema({
   games: [gameSchema],
 });
 
-module.exports = mongoose.model("StoryData", storyDataSchema);
+module.exports = mongoose.model("StoryData", storyDataSchema, "stories");

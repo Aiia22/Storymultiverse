@@ -35,14 +35,14 @@ const MySelectedResult = () => {
         <p>Description: {filmData.description}</p>
         <p>Film Length: {filmData.filmLenght} minutes</p>
         <p>
-          Directors: {returnItemName(filmData.directors, response.directors)}
+          Directors: {returnItemName(filmData.directors, response[0].directors)}
         </p>
         <p>Cast: {filmData.cast}</p>
         <p>
           Production Companies:{" "}
           {returnItemName(
             filmData.productionCompanies,
-            response.productionCompanies
+            response[0].productionCompanies
           )}
         </p>
       </div>
@@ -59,14 +59,15 @@ const MySelectedResult = () => {
         <p>Description: {tvShowData.description}</p>
         <p>Show Length: {tvShowData.showLenght} minutes</p>
         <p>
-          Directors: {returnItemName(tvShowData.directors, response.directors)}
+          Directors:{" "}
+          {returnItemName(tvShowData.directors, response[0].directors)}
         </p>
         <p>Cast: {tvShowData.cast}</p>
         <p>
           Production Companies:{" "}
           {returnItemName(
             tvShowData.productionCompanies,
-            response.productionCompanies
+            response[0].productionCompanies
           )}
         </p>
       </div>
@@ -97,12 +98,13 @@ const MySelectedResult = () => {
         <p>Description: {bookData.description}</p>
         <p>Reading Length: {bookData.readingLenght} pages</p>
         <p>Book Series: {bookData.bookSeries ? "Yes" : "No"}</p>
-        <p>Author: {returnItemName(bookData.author, response.authors)}</p>
+        <p>Author: {returnItemName(bookData.author, response[0].authors)}</p>
+
         <p>
           Publishing Companies:{" "}
           {returnItemName(
             bookData.publishingCompanies,
-            response.publishingCompanies
+            response[0].publishingCompanies
           )}
         </p>
       </div>

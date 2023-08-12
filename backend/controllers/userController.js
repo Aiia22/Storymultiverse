@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const saltRounds = 10;
 const accessTokenSecret = "storymultiverse-access-token-secret";
 
-// Helper function to generate an access token
 const generateAccessToken = (userId, username, tier, membershipStatus) => {
   return jwt.sign(
     { userId, username, tier, membershipStatus },
@@ -13,11 +12,12 @@ const generateAccessToken = (userId, username, tier, membershipStatus) => {
   );
 };
 
-// Get user by ID
+// ==> Get user by ID
 const getUserById = async (req, res) => {
   try {
     const userId = req.params.id;
     const user = await User.findById(userId);
+    console.log(user);
 
     if (!user) {
       return res.status(404).json({ error: "User not found" });
@@ -29,7 +29,7 @@ const getUserById = async (req, res) => {
   }
 };
 
-// Create new user (Register)
+// ==> Create user
 const createUser = async (req, res) => {
   try {
     const { userEmail, password } = req.body;
@@ -58,19 +58,20 @@ const createUser = async (req, res) => {
   }
 };
 
-// User Login
+// ==>  Login
 const loginUser = async (req, res) => {
   try {
     const { userEmail, password } = req.body;
 
     const user = await User.findOne({ userEmail });
+
     if (!user) {
-      return res.status(401).json({ error: "Invalid credentials" });
+      return res.status(401).json({ error: "These credentials are not valid" });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      return res.status(401).json({ error: "Invalid credentials" });
+      return res.status(401).json({ error: "These credentials are not valid" });
     }
 
     const accessToken = generateAccessToken(
@@ -85,7 +86,7 @@ const loginUser = async (req, res) => {
   }
 };
 
-// Update user
+// ==>  Update
 const updateUser = async (req, res) => {
   console.log(res);
   try {
@@ -95,7 +96,7 @@ const updateUser = async (req, res) => {
     const result = await User.findByIdAndUpdate(userId, updatedUser);
 
     if (!result) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(404).json({ error: "The user was not found" });
     }
 
     res.json(result);
@@ -104,14 +105,14 @@ const updateUser = async (req, res) => {
   }
 };
 
-// Delete user
+//==>  Delete
 const deleteUser = async (req, res) => {
   try {
     const userId = req.params.id;
     const result = await User.findByIdAndDelete(userId);
 
     if (!result) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(404).json({ error: "The user was not found" });
     }
 
     res.json({ message: "User deleted successfully" });
@@ -120,20 +121,19 @@ const deleteUser = async (req, res) => {
   }
 };
 
+// ==> Reset password
 const requestPasswordReset = async (req, res) => {
-  // TODO: Implement the request password reset logic here
-  res.status(501).json({ message: "Not implemented yet" });
+  res.status(501).json({ message: "Will be implmeented soon" });
 };
 
 const resetPassword = async (req, res) => {
-  // TODO: Implement the reset password logic here using the provided token
-  res.status(501).json({ message: "Not implemented yet" });
+  res.status(501).json({ message: "Will be implmeented soon" });
 };
 
 module.exports = {
   getUserById,
   createUser,
-  loginUser, // Added loginUser function
+  loginUser,
   updateUser,
   deleteUser,
   requestPasswordReset,
