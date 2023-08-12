@@ -1,7 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 
-const AuthComponent = ({ childComponent }) => {
+const Authentification = ({ childComponent }) => {
   const isUserLoggedIn = () => {
     // ==> verify  token in  storage
     const authToken = sessionStorage.getItem("authToken");
@@ -16,4 +16,4 @@ const AuthComponent = ({ childComponent }) => {
   }
 };
 
-export default AuthComponent;
+export default Authentification;
