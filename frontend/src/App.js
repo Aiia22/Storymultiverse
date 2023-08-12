@@ -17,7 +17,7 @@ import MySelectedResult from "./pages/MySelectedResult";
 import Register from "./pages/Register";
 
 // ******* Import auth component to protect route whorequired user to be logged in *****/
-import AuthComponent from "./components/authComponent";
+import Authentification from "./components/Authentification";
 
 export default function App() {
   return (
@@ -31,15 +31,15 @@ export default function App() {
 
         <Route
           path="/my-list"
-          element={<AuthComponent childComponent={<MyList />} />}
+          element={<Authentification childComponent={<MyList />} />}
         />
         <Route
           path="/community"
-          element={<AuthComponent childComponent={<Community />} />}
+          element={<Authentification childComponent={<Community />} />}
         />
         <Route
           path="/my-account"
-          element={<AuthComponent childComponent={<MyAccount />} />}
+          element={<Authentification childComponent={<MyAccount />} />}
         />
         <Route path="/support" element={<Support />} />
         <Route path="/contact" element={<Contact />} />
