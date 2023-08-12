@@ -79,8 +79,8 @@ Structured front using React components & views
 
 ## user registered to test login feature
 
-Email: gladysmorse@exozent.com
-Password: rOp@9aVI
+Email: wilderhunt@exozent.com
+Password: 1HeCeS6o
 
 We deployed the front of this App only, since the connection to mongDB database was not made possible at the time, despite are numerous attempts. We even tried to create a script which we call “importData.js to inject manually our collection onto the Database, which were added successfully but still didn’t allow us to retrieve the dataset.
 
