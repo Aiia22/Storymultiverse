@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 // ************ Set port number ********/
-const port = 5000;
+const port = 3000;
 
 // ******** MongoDB connection URI ************/
 const mongoDB_Uri =
