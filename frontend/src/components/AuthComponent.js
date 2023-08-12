@@ -11,6 +11,7 @@ const AuthComponent = ({ childComponent }) => {
   if (isUserLoggedIn()) {
     return childComponent;
   } else {
+    alert("You must login first to access this page!");
     return <Navigate to="/login" replace />;
   }
 };
