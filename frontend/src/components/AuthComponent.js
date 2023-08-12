@@ -1,0 +1,18 @@
+import React from "react";
+import { Navigate } from "react-router-dom";
+
+const AuthComponent = ({ childComponent }) => {
+  const isUserLoggedIn = () => {
+    // ==> verify  token in  storage
+    const authToken = sessionStorage.getItem("authToken");
+    return authToken !== null;
+  };
+
+  if (isUserLoggedIn()) {
+    return childComponent;
+  } else {
+    return <Navigate to="/login" replace />;
+  }
+};
+
+export default AuthComponent;

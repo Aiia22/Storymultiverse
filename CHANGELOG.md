@@ -1,8 +1,24 @@
 # Changelog
 
+## UI [1.14.0] 2023-08-11
+
+### Changed
+
+- Cleanup CSS and unsused file/folder
+- Commented out all DB data retrieval in front to use json instead
+- Removed unsused marketplace pages
+
+## Back [1.4.2] 2023-08-11
+
+### Added
+
+- Utils: importData.js script to manually inject collection onto mongoDB database
+- cleanup
+
 ## UI [1.12.2] 2023-08-11
 
 ### Added
+
 - Content to community and myList pages
 - css page created for comingSoon
 

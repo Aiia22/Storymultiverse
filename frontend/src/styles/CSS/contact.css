@@ -1,71 +1,68 @@
-/* Styles for the Contact Us page */
-
-/* Center the content */
 .contact-us {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
-/* Styling for the contact information box */
+/******* Styling for the contact information box ******/
 .contact-us .contact-info {
-    background-color: #6b7493; /* Purple background color */
-    color: white; /* Text color */
-    padding: 10px; /* Padding inside the box */
-    border-radius: 5px; /* Rounded corners */
-    width: 50%; /* Set a fixed width for the contact info box */
-    box-sizing: border-box; /* Include padding and border in the width */
-    margin: 0 auto 20px; /* Center and add spacing between contact info and map */
+  background-color: #6b7493;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0 auto 20px;
 }
 
 /* Styling for the map image */
 .contact-us .map-image img {
-    max-width: 100%; /* Ensure the image doesn't overflow its container */
-    height: auto; /* Maintain image aspect ratio */
-    max-height: 250px; /* Adjusted maximum height of the map image */
-    width: 50%; /* Set a fixed width for the map */
-    margin: 20px auto; /* Center and add spacing between the contact info box and map */
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  width: 50%;
+  margin: 20px auto;
 }
 
-/* Styling for the data privacy policy box */
+/********* Styling for the data privacy policy box ************/
 .contact-us .privacy-policy {
-    background-color: #6b7493; /* Purple background color */
-    color: white; /* Text color */
-    padding: 10px; /* Padding inside the box */
-    border-radius: 5px; /* Rounded corners */
-    width: 50%; /* Set a fixed width for the privacy policy box */
-    box-sizing: border-box; /* Include padding and border in the width */
-    margin: 20px auto; /* Center and add spacing between the map and data privacy policy */
+  background-color: #6b7493;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 20px auto;
 }
 
-/* Styling for the contact form */
+/********* Styling for the contact form **********/
 .contact-us .contact-form form {
-    text-align: left;
-    max-width: 400px;
-    margin: 0 auto;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-/* Styling for form labels, inputs, textarea, and button */
+/*********** Styling for form labels, inputs, textarea, and button ***********/
 .contact-us .contact-form label,
 .contact-us .contact-form input,
 .contact-us .contact-form textarea,
 .contact-us .contact-form button {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Styling for the textarea resizing */
+/********* Styling for the textarea resizing ********/
 .contact-us .contact-form textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
-/* Styling for the send message button */
+/******* Styling for the send message button *****/
 .contact-us .contact-form button {
-    background-color: #4CAF50; /* Green background color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding inside the button */
-    cursor: pointer;
-    font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
 }

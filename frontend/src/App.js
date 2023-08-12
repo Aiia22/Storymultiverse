@@ -16,6 +16,9 @@ import AboutUs from "./pages/AboutUs";
 import MySelectedResult from "./pages/MySelectedResult";
 import Register from "./pages/Register";
 
+// ******* Import auth component to protect route whorequired user to be logged in *****/
+import AuthComponent from "./components/authComponent";
+
 export default function App() {
   return (
     <Router>
@@ -25,9 +28,19 @@ export default function App() {
         <Route path="/my-search" element={<MySearch />} />
         <Route path="/my-search-result" element={<MySearchResult />} />
         <Route path="/my-search-detail" element={<MySearchSubResult />} />
-        <Route path="/my-list" element={<MyList />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/my-account" element={<MyAccount />} />
+
+        <Route
+          path="/my-list"
+          element={<AuthComponent childComponent={<MyList />} />}
+        />
+        <Route
+          path="/community"
+          element={<AuthComponent childComponent={<Community />} />}
+        />
+        <Route
+          path="/my-account"
+          element={<AuthComponent childComponent={<MyAccount />} />}
+        />
         <Route path="/support" element={<Support />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about-us" element={<AboutUs />} />

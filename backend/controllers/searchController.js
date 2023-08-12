@@ -2,7 +2,7 @@ const StoryData = require("../models/storyData");
 
 exports.getSearchResults = async (req, res) => {
   try {
-    const data = await StoryData.find();
+    const data = await StoryData.find({});
 
     console.log("Fetched data:", data);
 

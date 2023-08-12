@@ -1,6 +1,11 @@
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
+  _id: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    auto: true,
+  },
   userId: {
     type: String,
     required: true,
@@ -14,6 +19,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ["basic", "premium"],
     default: "basic",
+  },
+  picture: {
+    type: String,
+    default: "http://placehold.it/32x32",
   },
   age: {
     type: Number,
@@ -38,7 +47,7 @@ const userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-    minlength: 6, // You can add a minlength for additional security. Typically passwords should be longer than this.
+    minlength: 6,
   },
   phone: {
     type: String,
@@ -56,8 +65,10 @@ const userSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  resetPasswordToken: String,
+  resetPasswordExpires: Date,
 });
 
-const User = mongoose.model("User", userSchema, "user");
+const User = mongoose.model("User", userSchema, "users");
 
 module.exports = User;

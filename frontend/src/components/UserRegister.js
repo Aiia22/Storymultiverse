@@ -1,8 +1,12 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-//************  Start UserRegister component ************
+// **** import axios *************/  ==> for DB data retrieval
+import userData from "../data/userData.json"; // ==> using local data until DB fixed
+
+// ******* Import style ****/
+import "../styles/CSS/login.css";
+
 const UserRegister = () => {
   const router = useNavigate();
   const [userForm, setUserForm] = useState({
@@ -19,39 +23,67 @@ const UserRegister = () => {
   const { email, password, age, name, gender, phone, address, about } =
     userForm;
 
-  // Function to handle input change
-  const handleFormChange = (event) => {
+  // ==> Handle input form
+  const handleFormChange = (e) => {
     setUserForm({
       ...userForm,
-      [event.target.name]: event.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
-  // Function to handle form submission
-  const handleFormSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      // This const will make a call to  API endpoint to send login credentials to backend
-      const response = await axios.post("http://localhost:3000/api/register", {
-        userForm,
-      });
+  //********* logic that use Database data *********************/
+  // ===>  Handle submit form
+  // const handleFormSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     // ==>  Call API endpoint to send credentials
+  //     const response = await axios.post("http://localhost:3000/api/register", {
+  //       userForm,
+  //     });
 
-      // This will handle  successful response from  backend (e.g., show success message or handle authentication token)
-      console.log(response.data); // to be modified  based on  backend response
-      if (response.data.status === 200) {
-        //TO BE MODIFIED TO MATCH RESPONSE DATA
-        alert("Account created successfully !");
-        router("/my-search");
-      }
-    } catch (error) {
-      // This will handle error (e.g., show error message)
-      console.error(error.response.data); //to be modified  based on  backend response
+  //     // ===> Handle  successful post request
+
+  //     if (response.data.status === 200) {
+  //       alert("Your account has been created successfully.");
+  //       router("/my-search");
+  //     }
+  //   } catch (error) {
+  //     console.error(error.response.data);
+  //     alert("Oups something went wrong , please try again later .");
+  //     router("/my-search");
+  //   }
+  // };
+
+  //********* logic that use the json *********************/
+
+  // ==> Handle input form
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    // ==> Verify if email already used
+    const currentUser = userData.find((user) => user.userEmail === email);
+    if (currentUser) {
+      alert("This email is already registered.");
+      return;
     }
+
+    // ===> Simulate user registration
+    const newUser = {
+      ...userForm,
+      userEmail: email,
+    };
+
+    // ==> Simulated post route to add new user
+    userData.push(newUser);
+
+    alert("Your account has been created successfully.");
+    router("/my-search");
   };
 
-  //Return register account form
   return (
     <div className="login-container">
+      <h3>Create an account in a single step !</h3>
+
       <form onSubmit={handleFormSubmit}>
         <div className="form-group">
           <label htmlFor="name">Full name* : </label>
@@ -131,12 +163,12 @@ const UserRegister = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button className="logBtn" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
 };
-//************  Start UserRegister component ************
 
-//Export component
 export default UserRegister;

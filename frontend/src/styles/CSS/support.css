@@ -1,15 +1,12 @@
-#welP {
+#supportContent {
   text-align: center;
-  font-size: 25px;
-}
-#sp1 {
-  text-align: center;
-  font-size: 20px;
 }
 
 #sp1-contact {
+  margin-left: 111px;
   text-align: center;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 table {
@@ -23,10 +20,11 @@ td {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 30px;
-  font-size: 30px;
-  background-color: #6b7493;
+  font-size: 22px;
+  background-color: #6b7493a8;
   color: white;
   border: 10px solid white;
+  border-radius: 25px;
 }
 
 h3 {

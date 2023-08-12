@@ -13,7 +13,7 @@ export default function MyAccount() {
       <Navbar />
       <div className="container">
         <h1>My account</h1>
-        <h2>Here is your account and setting !</h2>
+        <h2>Here is your account and setting features coming soon !</h2>
       </div>
       <FooterComponent />
     </div>

@@ -5,9 +5,6 @@ import FooterComponent from "../components/FooterComponent";
 import Navbar from "../components/NavBar";
 import UserRegister from "../components/UserRegister";
 
-//******* Import style logic *******/
-//Here
-
 export default function Register() {
   return (
     <div>
