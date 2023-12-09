@@ -87,10 +87,6 @@ We deployed the front of this App only, since the connection to mongDB database 
 # MongoDb
 
 Project Name: Science&AIHub
-Access :
-
-- Username: tatianaleclerc
-- Password: irJ0wKZw30IF8r9P
 
 Uri:
 
